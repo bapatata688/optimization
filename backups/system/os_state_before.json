@@ -1,0 +1,13 @@
+{
+  "timestamp_utc": "2026-11-21T16:54:42Z",
+  "is_admin": false,
+  "hiberfil_exists": true,
+  "hibernate_enabled": true,
+  "fast_startup_hiberboot": 0,
+  "active_power_scheme_guid": "8ac65e32-075f-48d5-828b-02e93ad3c1f8",
+  "active_power_scheme_name": "Ultimate Performance",
+  "gamedvr_enabled": true,
+  "transparency_enabled": true,
+  "enable_vbs_reg": 1,
+  "vbs_running_status": 2
+}

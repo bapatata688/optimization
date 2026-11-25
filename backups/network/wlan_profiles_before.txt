@@ -1,0 +1,503 @@
+=== timestamp_utc: 2026-11-21T16:54:42Z ===
+--- netsh wlan show interfaces ---
+
+There is 1 interface on the system: 
+
+    Name                   : Wi-Fi
+    Description            : Realtek RTL8852AE WiFi 6 802.11ax PCIe Adapter
+    GUID                   : dc81ac1d-451f-40ed-90e3-150f8b550c51
+    Physical address       : 14:5a:fc:29:92:09
+    Interface type         : Primary
+    State                  : connected
+    SSID                   : CLARO2_F3E3B9
+    AP BSSID               : 84:01:12:f3:e3:be
+    Band                   : 5 GHz
+    Channel                : 36
+    Connected Akm-cipher   : [ akm = 00-0f-ac:02, cipher =  00-0f-ac:04 ]
+    Network type           : Infrastructure
+    Radio type             : 802.11ac
+    Authentication         : WPA2-Personal
+    Cipher                 : CCMP
+    Connection mode        : Auto Connect
+    Receive rate (Mbps)    : 866.7
+    Transmit rate (Mbps)   : 866.7
+    Signal                 : 95% 
+    Rssi                   : -66
+    Profile                : CLARO2_F3E3B9 
+    QoS MSCS Configured         : 0
+    QoS Map Configured          : 0
+    QoS Map Allowed by Policy   : 0
+
+
+--- netsh wlan show autoconfig ---
+
+Wireless LAN settings 
+--------------------- 
+    Auto configuration logic is enabled on interface "Wi-Fi"
+
+
+--- netsh wlan show profiles ---
+
+Profiles on interface Wi-Fi:
+
+Group policy profiles (read only)
+---------------------------------
+    <None>
+
+User profiles
+-------------
+    All User Profile     : lim😿
+    All User Profile     : computo
+    All User Profile     : OnePlus 10T 5G s745
+    All User Profile     : CLARO1_BA6A8B_EXT
+    All User Profile     : CLARO2_E56FFC
+    All User Profile     : CLARO2_F3E3B9
+    All User Profile     : CLARO1_F3E3B9
+    All User Profile     : iPhoneS
+    All User Profile     : CLARO1_BAB98B
+
+
+--- netsh wlan show profile name="lim😿" ---
+
+Profile lim😿 on interface Wi-Fi: 
+======================================================================= 
+
+Applied: All User Profile    
+
+Profile information 
+------------------- 
+    Version                : 1
+    Type                   : Wireless LAN
+    Name                   : lim😿
+    Control options        : 
+        Connection mode    : Connect automatically
+        Network broadcast  : Connect only if this network is broadcasting
+        AutoSwitch         : Do not switch to other networks
+        MAC Randomization  : Disabled
+
+Connectivity settings 
+--------------------- 
+    Number of SSIDs        : 1
+    SSID name              : "lim😿"
+    Network type           : Infrastructure
+    Radio type             : [ Any Radio Type ]
+    Vendor extension          : Not present
+
+Security settings 
+----------------- 
+    Authentication         : WPA3-Personal
+    Cipher                 : GCMP-256
+    Authentication         : WPA3-Personal
+    Cipher                 : GCMP
+    Authentication         : WPA3-Personal
+    Cipher                 : CCMP
+    Authentication         : WPA2-Personal
+    Cipher                 : GCMP
+    Authentication         : WPA2-Personal
+    Cipher                 : CCMP
+    Security key           : Present
+
+Cost settings 
+------------- 
+    Cost                   : Unrestricted
+    Congested              : No
+    Approaching Data Limit : No
+    Over Data Limit        : No
+    Roaming                : No
+    Cost Source            : Default
+
+
+--- netsh wlan show profile name="computo" ---
+
+Profile computo on interface Wi-Fi: 
+======================================================================= 
+
+Applied: All User Profile    
+
+Profile information 
+------------------- 
+    Version                : 1
+    Type                   : Wireless LAN
+    Name                   : computo
+    Control options        : 
+        Connection mode    : Connect automatically
+        Network broadcast  : Connect only if this network is broadcasting
+        AutoSwitch         : Do not switch to other networks
+        MAC Randomization  : Disabled
+
+Connectivity settings 
+--------------------- 
+    Number of SSIDs        : 1
+    SSID name              : "computo"
+    Network type           : Infrastructure
+    Radio type             : [ Any Radio Type ]
+    Vendor extension          : Not present
+
+Security settings 
+----------------- 
+    Authentication         : WPA3-Personal
+    Cipher                 : GCMP-256
+    Authentication         : WPA3-Personal
+    Cipher                 : GCMP
+    Authentication         : WPA3-Personal
+    Cipher                 : CCMP
+    Security key           : Present
+
+Cost settings 
+------------- 
+    Cost                   : Unrestricted
+    Congested              : No
+    Approaching Data Limit : No
+    Over Data Limit        : No
+    Roaming                : No
+    Cost Source            : Default
+
+
+--- netsh wlan show profile name="OnePlus 10T 5G s745" ---
+
+Profile OnePlus 10T 5G s745 on interface Wi-Fi: 
+======================================================================= 
+
+Applied: All User Profile    
+
+Profile information 
+------------------- 
+    Version                : 1
+    Type                   : Wireless LAN
+    Name                   : OnePlus 10T 5G s745
+    Control options        : 
+        Connection mode    : Connect automatically
+        Network broadcast  : Connect only if this network is broadcasting
+        AutoSwitch         : Do not switch to other networks
+        MAC Randomization  : Disabled
+
+Connectivity settings 
+--------------------- 
+    Number of SSIDs        : 1
+    SSID name              : "OnePlus 10T 5G s745"
+    Network type           : Infrastructure
+    Radio type             : [ Any Radio Type ]
+    Vendor extension          : Not present
+
+Security settings 
+----------------- 
+    Authentication         : WPA3-Personal
+    Cipher                 : GCMP-256
+    Authentication         : WPA3-Personal
+    Cipher                 : GCMP
+    Authentication         : WPA3-Personal
+    Cipher                 : CCMP
+    Authentication         : WPA2-Personal
+    Cipher                 : GCMP
+    Authentication         : WPA2-Personal
+    Cipher                 : CCMP
+    Security key           : Present
+
+Cost settings 
+------------- 
+    Cost                   : Unrestricted
+    Congested              : No
+    Approaching Data Limit : No
+    Over Data Limit        : No
+    Roaming                : No
+    Cost Source            : Default
+
+
+--- netsh wlan show profile name="CLARO1_BA6A8B_EXT" ---
+
+Profile CLARO1_BA6A8B_EXT on interface Wi-Fi: 
+======================================================================= 
+
+Applied: All User Profile    
+
+Profile information 
+------------------- 
+    Version                : 1
+    Type                   : Wireless LAN
+    Name                   : CLARO1_BA6A8B_EXT
+    Control options        : 
+        Connection mode    : Connect automatically
+        Network broadcast  : Connect only if this network is broadcasting
+        AutoSwitch         : Do not switch to other networks
+        MAC Randomization  : Disabled
+
+Connectivity settings 
+--------------------- 
+    Number of SSIDs        : 1
+    SSID name              : "CLARO1_BA6A8B_EXT"
+    Network type           : Infrastructure
+    Radio type             : [ Any Radio Type ]
+    Vendor extension          : Not present
+
+Security settings 
+----------------- 
+    Authentication         : WPA3-Personal
+    Cipher                 : GCMP-256
+    Authentication         : WPA3-Personal
+    Cipher                 : GCMP
+    Authentication         : WPA3-Personal
+    Cipher                 : CCMP
+    Authentication         : WPA2-Personal
+    Cipher                 : GCMP
+    Authentication         : WPA2-Personal
+    Cipher                 : CCMP
+    Security key           : Present
+
+Cost settings 
+------------- 
+    Cost                   : Unrestricted
+    Congested              : No
+    Approaching Data Limit : No
+    Over Data Limit        : No
+    Roaming                : No
+    Cost Source            : Default
+
+
+--- netsh wlan show profile name="CLARO2_E56FFC" ---
+
+Profile CLARO2_E56FFC on interface Wi-Fi: 
+======================================================================= 
+
+Applied: All User Profile    
+
+Profile information 
+------------------- 
+    Version                : 1
+    Type                   : Wireless LAN
+    Name                   : CLARO2_E56FFC
+    Control options        : 
+        Connection mode    : Connect automatically
+        Network broadcast  : Connect only if this network is broadcasting
+        AutoSwitch         : Do not switch to other networks
+        MAC Randomization  : Disabled
+
+Connectivity settings 
+--------------------- 
+    Number of SSIDs        : 1
+    SSID name              : "CLARO2_E56FFC"
+    Network type           : Infrastructure
+    Radio type             : [ Any Radio Type ]
+    Vendor extension          : Not present
+
+Security settings 
+----------------- 
+    Authentication         : WPA3-Personal
+    Cipher                 : GCMP-256
+    Authentication         : WPA3-Personal
+    Cipher                 : GCMP
+    Authentication         : WPA3-Personal
+    Cipher                 : CCMP
+    Authentication         : WPA2-Personal
+    Cipher                 : GCMP
+    Authentication         : WPA2-Personal
+    Cipher                 : CCMP
+    Security key           : Present
+
+Cost settings 
+------------- 
+    Cost                   : Unrestricted
+    Congested              : No
+    Approaching Data Limit : No
+    Over Data Limit        : No
+    Roaming                : No
+    Cost Source            : Default
+
+
+--- netsh wlan show profile name="CLARO2_F3E3B9" ---
+
+Profile CLARO2_F3E3B9 on interface Wi-Fi: 
+======================================================================= 
+
+Applied: All User Profile    
+
+Profile information 
+------------------- 
+    Version                : 1
+    Type                   : Wireless LAN
+    Name                   : CLARO2_F3E3B9
+    Control options        : 
+        Connection mode    : Connect automatically
+        Network broadcast  : Connect only if this network is broadcasting
+        AutoSwitch         : Do not switch to other networks
+        MAC Randomization  : Disabled
+
+Connectivity settings 
+--------------------- 
+    Number of SSIDs        : 1
+    SSID name              : "CLARO2_F3E3B9"
+    Network type           : Infrastructure
+    Radio type             : [ Any Radio Type ]
+    Vendor extension          : Not present
+
+Security settings 
+----------------- 
+    Authentication         : WPA3-Personal
+    Cipher                 : GCMP-256
+    Authentication         : WPA3-Personal
+    Cipher                 : GCMP
+    Authentication         : WPA3-Personal
+    Cipher                 : CCMP
+    Authentication         : WPA2-Personal
+    Cipher                 : GCMP
+    Authentication         : WPA2-Personal
+    Cipher                 : CCMP
+    Security key           : Present
+
+Cost settings 
+------------- 
+    Cost                   : Unrestricted
+    Congested              : No
+    Approaching Data Limit : No
+    Over Data Limit        : No
+    Roaming                : No
+    Cost Source            : Default
+
+
+--- netsh wlan show profile name="CLARO1_F3E3B9" ---
+
+Profile CLARO1_F3E3B9 on interface Wi-Fi: 
+======================================================================= 
+
+Applied: All User Profile    
+
+Profile information 
+------------------- 
+    Version                : 1
+    Type                   : Wireless LAN
+    Name                   : CLARO1_F3E3B9
+    Control options        : 
+        Connection mode    : Connect automatically
+        Network broadcast  : Connect only if this network is broadcasting
+        AutoSwitch         : Do not switch to other networks
+        MAC Randomization  : Disabled
+
+Connectivity settings 
+--------------------- 
+    Number of SSIDs        : 1
+    SSID name              : "CLARO1_F3E3B9"
+    Network type           : Infrastructure
+    Radio type             : [ Any Radio Type ]
+    Vendor extension          : Not present
+
+Security settings 
+----------------- 
+    Authentication         : WPA3-Personal
+    Cipher                 : GCMP-256
+    Authentication         : WPA3-Personal
+    Cipher                 : GCMP
+    Authentication         : WPA3-Personal
+    Cipher                 : CCMP
+    Authentication         : WPA2-Personal
+    Cipher                 : GCMP
+    Authentication         : WPA2-Personal
+    Cipher                 : CCMP
+    Security key           : Present
+
+Cost settings 
+------------- 
+    Cost                   : Unrestricted
+    Congested              : No
+    Approaching Data Limit : No
+    Over Data Limit        : No
+    Roaming                : No
+    Cost Source            : Default
+
+
+--- netsh wlan show profile name="iPhoneS" ---
+
+Profile iPhoneS on interface Wi-Fi: 
+======================================================================= 
+
+Applied: All User Profile    
+
+Profile information 
+------------------- 
+    Version                : 1
+    Type                   : Wireless LAN
+    Name                   : iPhoneS
+    Control options        : 
+        Connection mode    : Connect automatically
+        Network broadcast  : Connect only if this network is broadcasting
+        AutoSwitch         : Do not switch to other networks
+        MAC Randomization  : Disabled
+
+Connectivity settings 
+--------------------- 
+    Number of SSIDs        : 1
+    SSID name              : "iPhoneS"
+    Network type           : Infrastructure
+    Radio type             : [ Any Radio Type ]
+    Vendor extension          : Not present
+
+Security settings 
+----------------- 
+    Authentication         : WPA3-Personal
+    Cipher                 : GCMP-256
+    Authentication         : WPA3-Personal
+    Cipher                 : GCMP
+    Authentication         : WPA3-Personal
+    Cipher                 : CCMP
+    Authentication         : WPA2-Personal
+    Cipher                 : GCMP
+    Authentication         : WPA2-Personal
+    Cipher                 : CCMP
+    Security key           : Present
+
+Cost settings 
+------------- 
+    Cost                   : Unrestricted
+    Congested              : No
+    Approaching Data Limit : No
+    Over Data Limit        : No
+    Roaming                : No
+    Cost Source            : Default
+
+
+--- netsh wlan show profile name="CLARO1_BAB98B" ---
+
+Profile CLARO1_BAB98B on interface Wi-Fi: 
+======================================================================= 
+
+Applied: All User Profile    
+
+Profile information 
+------------------- 
+    Version                : 1
+    Type                   : Wireless LAN
+    Name                   : CLARO1_BAB98B
+    Control options        : 
+        Connection mode    : Connect automatically
+        Network broadcast  : Connect only if this network is broadcasting
+        AutoSwitch         : Do not switch to other networks
+        MAC Randomization  : Disabled
+
+Connectivity settings 
+--------------------- 
+    Number of SSIDs        : 1
+    SSID name              : "CLARO1_BAB98B"
+    Network type           : Infrastructure
+    Radio type             : [ Any Radio Type ]
+    Vendor extension          : Not present
+
+Security settings 
+----------------- 
+    Authentication         : WPA3-Personal
+    Cipher                 : GCMP-256
+    Authentication         : WPA3-Personal
+    Cipher                 : GCMP
+    Authentication         : WPA3-Personal
+    Cipher                 : CCMP
+    Authentication         : WPA2-Personal
+    Cipher                 : GCMP
+    Authentication         : WPA2-Personal
+    Cipher                 : CCMP
+    Security key           : Present
+
+Cost settings 
+------------- 
+    Cost                   : Unrestricted
+    Congested              : No
+    Approaching Data Limit : No
+    Over Data Limit        : No
+    Roaming                : No
+    Cost Source            : Default

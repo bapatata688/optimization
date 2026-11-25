@@ -1,0 +1,39 @@
+=== timestamp_utc: 2026-11-21T16:54:42Z ===
+--- netsh int tcp show global ---
+Querying active state...
+
+TCP Global Parameters
+----------------------------------------------
+Receive-Side Scaling State          : enabled 
+Receive Window Auto-Tuning Level    : normal 
+Add-On Congestion Control Provider  : default 
+ECN Capability                      : disabled 
+RFC 1323 Timestamps                 : disabled 
+Initial RTO                         : 1000 
+Receive Segment Coalescing State    : enabled 
+Non Sack Rtt Resiliency             : disabled 
+Max SYN Retransmissions             : 4 
+Fast Open                           : enabled 
+Fast Open Fallback                  : enabled 
+HyStart                             : enabled 
+Proportional Rate Reduction         : enabled 
+Pacing Profile                      : off 
+
+
+--- netsh int tcp show supplemental ---
+
+The TCP global default template is internet
+
+TCP Supplemental Parameters
+----------------------------------------------
+Minimum RTO (msec)                  : 300 
+Initial Congestion Window (MSS)     : 10 
+Congestion Control Provider         : cubic 
+Enable Congestion Window Restart    : disabled 
+Delayed ACK timeout (msec)          : 40 
+Delayed ACK frequency               : 2 
+Enable RACK                         : enabled 
+Enable Tail Loss Probe              : enabled 
+
+Please use the 'netsh int tcp show supplementalports' and 
+'netsh int tcp show supplementalsubnets' commands to view active filters.

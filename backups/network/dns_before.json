@@ -1,0 +1,33 @@
+{
+  "timestamp_utc": "2026-11-21T16:54:42Z",
+  "interfaces": [
+    {
+      "InterfaceName": "Wi-Fi",
+      "InterfaceIndex": 16,
+      "InterfaceGuid": "{dc81ac1d-451f-40ed-90e3-150f8b550c51}",
+      "Status": "Up",
+      "EnableDHCP": 1,
+      "IsStatic": true,
+      "NameServer": "1.1.1.1,1.0.0.1",
+      "DhcpNameServer": "216.230.147.90 216.230.139.8",
+      "ServerAddresses": [
+        "1.1.1.1",
+        "1.0.0.1"
+      ]
+    },
+    {
+      "InterfaceName": "Ethernet",
+      "InterfaceIndex": 4,
+      "InterfaceGuid": "{1fdaf09d-6a12-453a-976c-e47b20e349a6}",
+      "Status": "Disconnected",
+      "EnableDHCP": 1,
+      "IsStatic": false,
+      "NameServer": "",
+      "DhcpNameServer": "216.230.147.90 216.230.139.8",
+      "ServerAddresses": [
+        "216.230.147.90",
+        "216.230.139.8"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1990 @@
+[
+  {
+    "Name": "AarSvc_9cc3f",
+    "DisplayName": "Agent Activation Runtime_9cc3f",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "ADPSvc",
+    "DisplayName": "Aggregated Data Platform Service",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "ALG",
+    "DisplayName": "Application Layer Gateway Service",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "AMD Crash Defender Service",
+    "DisplayName": "AMD Crash Defender Service",
+    "Status": "Running",
+    "StartType": "Automatic",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "AMD External Events Utility",
+    "DisplayName": "AMD External Events Utility",
+    "Status": "Running",
+    "StartType": "Automatic",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "AppIDSvc",
+    "DisplayName": "Application Identity",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "Appinfo",
+    "DisplayName": "Application Information",
+    "Status": "Running",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "AppReadiness",
+    "DisplayName": "App Readiness",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "AppXSvc",
+    "DisplayName": "AppX Deployment Service (AppXSVC)",
+    "Status": "Running",
+    "StartType": "Automatic",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "ApxSvc",
+    "DisplayName": "Windows Virtual Audio Device Proxy Service",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "AudioEndpointBuilder",
+    "DisplayName": "Windows Audio Endpoint Builder",
+    "Status": "Running",
+    "StartType": "Automatic",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "Audiosrv",
+    "DisplayName": "Windows Audio",
+    "Status": "Running",
+    "StartType": "Automatic",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "autotimesvc",
+    "DisplayName": "Cellular Time",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "AxInstSV",
+    "DisplayName": "ActiveX Installer (AxInstSV)",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "BcastDVRUserService_9cc3f",
+    "DisplayName": "Servicio de usuario de difusión y GameDVR_9cc3f",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "BDESVC",
+    "DisplayName": "BitLocker Drive Encryption Service",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "BFE",
+    "DisplayName": "Base Filtering Engine",
+    "Status": "Running",
+    "StartType": "Automatic",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "BITS",
+    "DisplayName": "Background Intelligent Transfer Service",
+    "Status": "Running",
+    "StartType": "AutomaticDelayedStart",
+    "DelayedAutostart": true
+  },
+  {
+    "Name": "BluetoothUserService_9cc3f",
+    "DisplayName": "Servicio de soporte técnico al usuario de Bluetooth_9cc3f",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "BrokerInfrastructure",
+    "DisplayName": "Background Tasks Infrastructure Service",
+    "Status": "Running",
+    "StartType": "Automatic",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "BTAGService",
+    "DisplayName": "Bluetooth Audio Gateway Service",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "BthAvctpSvc",
+    "DisplayName": "AVCTP service",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "bthserv",
+    "DisplayName": "Bluetooth Support Service",
+    "Status": "Running",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "camsvc",
+    "DisplayName": "Capability Access Manager Service",
+    "Status": "Running",
+    "StartType": "Automatic",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "CaptureService_9cc3f",
+    "DisplayName": "CaptureService_9cc3f",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "cbdhsvc_9cc3f",
+    "DisplayName": "Servicio de usuario de Portapapeles_9cc3f",
+    "Status": "Running",
+    "StartType": "Automatic",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "CDPSvc",
+    "DisplayName": "Connected Devices Platform Service",
+    "Status": "Running",
+    "StartType": "AutomaticDelayedStart",
+    "DelayedAutostart": true
+  },
+  {
+    "Name": "CDPUserSvc_9cc3f",
+    "DisplayName": "Servicio de usuario de plataforma de dispositivos conectados_9cc3f",
+    "Status": "Running",
+    "StartType": "Automatic",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "CertPropSvc",
+    "DisplayName": "Certificate Propagation",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "ClipSVC",
+    "DisplayName": "Client License Service (ClipSVC)",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "CloudBackupRestoreSvc_9cc3f",
+    "DisplayName": "Servicio de copia de seguridad y restauración en la nube_9cc3f",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "COMSysApp",
+    "DisplayName": "COM+ System Application",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "ConsentUxUserSvc_9cc3f",
+    "DisplayName": "Servicio de usuario ConsentUX_9cc3f",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "CoreMessagingRegistrar",
+    "DisplayName": "CoreMessaging",
+    "Status": "Running",
+    "StartType": "Automatic",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "CredentialEnrollmentManagerUserSvc_9cc3f",
+    "DisplayName": "CredentialEnrollmentManagerUserSvc_9cc3f",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "CryptSvc",
+    "DisplayName": "Cryptographic Services",
+    "Status": "Running",
+    "StartType": "Automatic",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "DcomLaunch",
+    "DisplayName": "DCOM Server Process Launcher",
+    "Status": "Running",
+    "StartType": "Automatic",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "dcsvc",
+    "DisplayName": "Declared Configuration(DC) service",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": true
+  },
+  {
+    "Name": "defragsvc",
+    "DisplayName": "Optimize drives",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "DeviceAssociationBrokerSvc_9cc3f",
+    "DisplayName": "DeviceAssociationBroker_9cc3f",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "DeviceAssociationService",
+    "DisplayName": "Device Association Service",
+    "Status": "Running",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "DeviceInstall",
+    "DisplayName": "Device Install Service",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "DevicePickerUserSvc_9cc3f",
+    "DisplayName": "DevicePicker_9cc3f",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "DevicesFlowUserSvc_9cc3f",
+    "DisplayName": "DevicesFlow_9cc3f",
+    "Status": "Running",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "DevQueryBroker",
+    "DisplayName": "DevQuery Background Discovery Broker",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "Dhcp",
+    "DisplayName": "DHCP Client",
+    "Status": "Running",
+    "StartType": "Automatic",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "diagsvc",
+    "DisplayName": "Diagnostic Execution Service",
+    "Status": "Stopped",
+    "StartType": "Disabled",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "DiagTrack",
+    "DisplayName": "Connected User Experiences and Telemetry",
+    "Status": "Stopped",
+    "StartType": "Disabled",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "DispBrokerDesktopSvc",
+    "DisplayName": "Display Policy Service",
+    "Status": "Running",
+    "StartType": "Automatic",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "DisplayEnhancementService",
+    "DisplayName": "Display Enhancement Service",
+    "Status": "Running",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "DmEnrollmentSvc",
+    "DisplayName": "Device Management Enrollment Service",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "dmwappushservice",
+    "DisplayName": "Device Management Wireless Application Protocol (WAP) Push message Routing Service",
+    "Status": "Stopped",
+    "StartType": "Disabled",
+    "DelayedAutostart": true
+  },
+  {
+    "Name": "Dnscache",
+    "DisplayName": "DNS Client",
+    "Status": "Running",
+    "StartType": "Automatic",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "DoSvc",
+    "DisplayName": "Delivery Optimization",
+    "Status": "Running",
+    "StartType": "AutomaticDelayedStart",
+    "DelayedAutostart": true
+  },
+  {
+    "Name": "dot3svc",
+    "DisplayName": "Wired AutoConfig",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "DPS",
+    "DisplayName": "Diagnostic Policy Service",
+    "Status": "Running",
+    "StartType": "Automatic",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "DsmSvc",
+    "DisplayName": "Device Setup Manager",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "DsSvc",
+    "DisplayName": "Data Sharing Service",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "DusmSvc",
+    "DisplayName": "Data Usage",
+    "Status": "Running",
+    "StartType": "Automatic",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "EapHost",
+    "DisplayName": "Extensible Authentication Protocol",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "EasyAntiCheat",
+    "DisplayName": "EasyAntiCheat",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "EasyAntiCheat_EOS",
+    "DisplayName": "Easy Anti-Cheat (Epic Online Services)",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "edgeupdate",
+    "DisplayName": "Microsoft Edge Update Service (edgeupdate)",
+    "Status": "Stopped",
+    "StartType": "AutomaticDelayedStart",
+    "DelayedAutostart": true
+  },
+  {
+    "Name": "edgeupdatem",
+    "DisplayName": "Microsoft Edge Update Service (edgeupdatem)",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": true
+  },
+  {
+    "Name": "EFS",
+    "DisplayName": "Encrypting File System (EFS)",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "embeddedmode",
+    "DisplayName": "Embedded Mode",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "EntAppSvc",
+    "DisplayName": "Enterprise App Management Service",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "EpicGamesUpdater",
+    "DisplayName": "Epic Games Updater",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "EpicOnlineServices",
+    "DisplayName": "Epic Online Services",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "EventLog",
+    "DisplayName": "Windows Event Log",
+    "Status": "Running",
+    "StartType": "Automatic",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "EventSystem",
+    "DisplayName": "COM+ Event System",
+    "Status": "Running",
+    "StartType": "Automatic",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "fdPHost",
+    "DisplayName": "Function Discovery Provider Host",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "FDResPub",
+    "DisplayName": "Function Discovery Resource Publication",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "fhsvc",
+    "DisplayName": "File History Service",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "FontCache",
+    "DisplayName": "Windows Font Cache Service",
+    "Status": "Running",
+    "StartType": "Automatic",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "FontCache3.0.0.0",
+    "DisplayName": "Windows Presentation Foundation Font Cache 3.0.0.0",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "FrameServer",
+    "DisplayName": "Windows Camera Frame Server",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "FrameServerMonitor",
+    "DisplayName": "Windows Camera Frame Server Monitor",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "FvSvc",
+    "DisplayName": "NVIDIA FrameView SDK service",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "GameInputRedistService",
+    "DisplayName": "GameInput Redist Service",
+    "Status": "Running",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "GameInputSvc",
+    "DisplayName": "GameInput Service",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "gpsvc",
+    "DisplayName": "Group Policy Client",
+    "Status": "Running",
+    "StartType": "Automatic",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "GraphicsPerfSvc",
+    "DisplayName": "GraphicsPerfSvc",
+    "Status": "Running",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "HidHideWatchdog.exe",
+    "DisplayName": "HidHide Watchdog",
+    "Status": "Running",
+    "StartType": "Automatic",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "hidserv",
+    "DisplayName": "Human Interface Device Service",
+    "Status": "Running",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "hns",
+    "DisplayName": "Host Network Service",
+    "Status": "Running",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "hpatchmon",
+    "DisplayName": "Hotpatch Monitoring Service",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "HvHost",
+    "DisplayName": "HV Host Service",
+    "Status": "Running",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "icssvc",
+    "DisplayName": "Windows Mobile Hotspot Service",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "IKEEXT",
+    "DisplayName": "IKE and AuthIP IPsec Keying Modules",
+    "Status": "Running",
+    "StartType": "Automatic",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "InstallService",
+    "DisplayName": "Microsoft Store Install Service",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "InventorySvc",
+    "DisplayName": "Inventory and Compatibility Appraisal service",
+    "Status": "Running",
+    "StartType": "AutomaticDelayedStart",
+    "DelayedAutostart": true
+  },
+  {
+    "Name": "iphlpsvc",
+    "DisplayName": "IP Helper",
+    "Status": "Running",
+    "StartType": "Automatic",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "IpxlatCfgSvc",
+    "DisplayName": "IP Translation Configuration Service",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "IsolationSession",
+    "DisplayName": "IsolationSession",
+    "Status": "Stopped",
+    "StartType": null,
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "IsoSessionCore",
+    "DisplayName": "IsoSessionCore",
+    "Status": "Stopped",
+    "StartType": null,
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "KeyIso",
+    "DisplayName": "CNG Key Isolation",
+    "Status": "Running",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "KtmRm",
+    "DisplayName": "KtmRm for Distributed Transaction Coordinator",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "LanmanServer",
+    "DisplayName": "Server",
+    "Status": "Running",
+    "StartType": "Automatic",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "LanmanWorkstation",
+    "DisplayName": "Workstation",
+    "Status": "Running",
+    "StartType": "Automatic",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "LenovoFnAndFunctionKeys",
+    "DisplayName": "Lenovo Fn and function keys service",
+    "Status": "Running",
+    "StartType": "Automatic",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "LenovoVantageService",
+    "DisplayName": "Critical Service for Lenovo Vantage",
+    "Status": "Running",
+    "StartType": "Automatic",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "lfsvc",
+    "DisplayName": "Geolocation Service",
+    "Status": "Running",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "LicenseManager",
+    "DisplayName": "Windows License Manager Service",
+    "Status": "Running",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "lltdsvc",
+    "DisplayName": "Link-Layer Topology Discovery Mapper",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "lmhosts",
+    "DisplayName": "TCP/IP NetBIOS Helper",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "LocalKdc",
+    "DisplayName": "Kerberos Local Key Distribution Center",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "LSM",
+    "DisplayName": "Local Session Manager",
+    "Status": "Running",
+    "StartType": "Automatic",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "LxpSvc",
+    "DisplayName": "Language Experience Service",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "MapsBroker",
+    "DisplayName": "Downloaded Maps Manager",
+    "Status": "Stopped",
+    "StartType": "AutomaticDelayedStart",
+    "DelayedAutostart": true
+  },
+  {
+    "Name": "McmSvc",
+    "DisplayName": "Mobile Connectivity Management Service",
+    "Status": "Stopped",
+    "StartType": null,
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "McpManagementService",
+    "DisplayName": "McpManagementService",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "MDCoreSvc",
+    "DisplayName": "Microsoft Defender Core Service",
+    "Status": "Running",
+    "StartType": "Automatic",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "MessagingService_9cc3f",
+    "DisplayName": "MessagingService_9cc3f",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "MicrosoftCopilotElevationService",
+    "DisplayName": "Microsoft Copilot Elevation Service (MicrosoftCopilotElevationService)",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "MicrosoftEdgeElevationService",
+    "DisplayName": "Microsoft Edge Elevation Service (MicrosoftEdgeElevationService)",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "midisrv",
+    "DisplayName": "Windows MIDI Service",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "MozillaMaintenance",
+    "DisplayName": "Mozilla Maintenance Service",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "mpssvc",
+    "DisplayName": "Windows Defender Firewall",
+    "Status": "Running",
+    "StartType": "Automatic",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "MSDTC",
+    "DisplayName": "Distributed Transaction Coordinator",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": true
+  },
+  {
+    "Name": "MSiSCSI",
+    "DisplayName": "Microsoft iSCSI Initiator Service",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "msiserver",
+    "DisplayName": "Windows Installer",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "NahimicService",
+    "DisplayName": "Nahimic service",
+    "Status": "Running",
+    "StartType": "Automatic",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "NaturalAuthentication",
+    "DisplayName": "Natural Authentication",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "NcaSvc",
+    "DisplayName": "Network Connectivity Assistant",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "NcbService",
+    "DisplayName": "Network Connection Broker",
+    "Status": "Running",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "NcdAutoSetup",
+    "DisplayName": "Network Connected Devices Auto-Setup",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "Netlogon",
+    "DisplayName": "Netlogon",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "Netman",
+    "DisplayName": "Network Connections",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "netprofm",
+    "DisplayName": "Network List Service",
+    "Status": "Running",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "NetSetupSvc",
+    "DisplayName": "Network Setup Service",
+    "Status": "Running",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "NetTcpPortSharing",
+    "DisplayName": "Net.Tcp Port Sharing Service",
+    "Status": "Stopped",
+    "StartType": "Disabled",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "NetworkDaemon",
+    "DisplayName": "NetworkDaemon",
+    "Status": "Stopped",
+    "StartType": "Automatic",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "NgcCtnrSvc",
+    "DisplayName": "Microsoft Passport Container",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "NgcSvc",
+    "DisplayName": "Microsoft Passport",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "NlaSvc",
+    "DisplayName": "Network Location Awareness",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "NPSMSvc_9cc3f",
+    "DisplayName": "Reproducción del Servicio administrador de sesiones_9cc3f",
+    "Status": "Running",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "nsi",
+    "DisplayName": "Network Store Interface Service",
+    "Status": "Running",
+    "StartType": "Automatic",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "nvagent",
+    "DisplayName": "Network Virtualization Service",
+    "Status": "Running",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "NvContainerLocalSystem",
+    "DisplayName": "NVIDIA LocalSystem Container",
+    "Status": "Running",
+    "StartType": "Automatic",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "NVDisplay.ContainerLocalSystem",
+    "DisplayName": "NVIDIA Display Container LS",
+    "Status": "Running",
+    "StartType": "Automatic",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "OneSyncSvc_9cc3f",
+    "DisplayName": "Sincronizar host_9cc3f",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "P9RdrService_9cc3f",
+    "DisplayName": "P9RdrService_9cc3f",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "PcaSvc",
+    "DisplayName": "Program Compatibility Assistant Service",
+    "Status": "Running",
+    "StartType": "AutomaticDelayedStart",
+    "DelayedAutostart": true
+  },
+  {
+    "Name": "PCManager Service Store",
+    "DisplayName": "Microsoft PC Manager Service",
+    "Status": "Running",
+    "StartType": "Automatic",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "PenService_9cc3f",
+    "DisplayName": "PenService_9cc3f",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "PerfHost",
+    "DisplayName": "Performance Counter DLL Host",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "PhoneSvc",
+    "DisplayName": "Phone Service",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "PimIndexMaintenanceSvc_9cc3f",
+    "DisplayName": "Datos de los contactos_9cc3f",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "pla",
+    "DisplayName": "Performance Logs & Alerts",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "PlugPlay",
+    "DisplayName": "Plug and Play",
+    "Status": "Running",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "PlutonQcService",
+    "DisplayName": "Microsoft Pluton QC Service",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "PolicyAgent",
+    "DisplayName": "IPsec Policy Agent",
+    "Status": "Running",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "Power",
+    "DisplayName": "Power",
+    "Status": "Running",
+    "StartType": "Automatic",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "PrintDeviceConfigurationService",
+    "DisplayName": "Print Device Configuration Service",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "PrintNotify",
+    "DisplayName": "Printer Extensions and Notifications",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "PrintScanBrokerService",
+    "DisplayName": "PrintScanBrokerService",
+    "Status": "Stopped",
+    "StartType": null,
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "PrintWorkflowUserSvc_9cc3f",
+    "DisplayName": "PrintWorkflow_9cc3f",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "ProfSvc",
+    "DisplayName": "User Profile Service",
+    "Status": "Running",
+    "StartType": "Automatic",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "PushToInstall",
+    "DisplayName": "Windows PushToInstall Service",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "QWAVE",
+    "DisplayName": "Quality Windows Audio Video Experience",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "RasAuto",
+    "DisplayName": "Remote Access Auto Connection Manager",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "RasMan",
+    "DisplayName": "Remote Access Connection Manager",
+    "Status": "Running",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "refsdedupsvc",
+    "DisplayName": "ReFS Dedup Service",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "RemoteAccess",
+    "DisplayName": "Routing and Remote Access",
+    "Status": "Stopped",
+    "StartType": "Disabled",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "RemoteRegistry",
+    "DisplayName": "Remote Registry",
+    "Status": "Stopped",
+    "StartType": "Disabled",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "RetailDemo",
+    "DisplayName": "Retail Demo Service",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "RmSvc",
+    "DisplayName": "Radio Management Service",
+    "Status": "Running",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "RpcEptMapper",
+    "DisplayName": "RPC Endpoint Mapper",
+    "Status": "Running",
+    "StartType": "Automatic",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "RpcLocator",
+    "DisplayName": "Remote Procedure Call (RPC) Locator",
+    "Status": "Running",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "RpcSs",
+    "DisplayName": "Remote Procedure Call (RPC)",
+    "Status": "Running",
+    "StartType": "Automatic",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "RtkAudioUniversalService",
+    "DisplayName": "Realtek Audio Universal Service",
+    "Status": "Running",
+    "StartType": "Automatic",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "RtkBtManServ",
+    "DisplayName": "Realtek Bluetooth Device Manager Service",
+    "Status": "Running",
+    "StartType": "Automatic",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "SamSs",
+    "DisplayName": "Security Accounts Manager",
+    "Status": "Running",
+    "StartType": "Automatic",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "SCardSvr",
+    "DisplayName": "Smart Card",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "ScDeviceEnum",
+    "DisplayName": "Smart Card Device Enumeration Service",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "Schedule",
+    "DisplayName": "Task Scheduler",
+    "Status": "Running",
+    "StartType": "Automatic",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "SCPolicySvc",
+    "DisplayName": "Smart Card Removal Policy",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "SDRSVC",
+    "DisplayName": "Windows Backup",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "seclogon",
+    "DisplayName": "Secondary Logon",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "SecurityHealthService",
+    "DisplayName": "Windows Security Service",
+    "Status": "Running",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "SEMgrSvc",
+    "DisplayName": "Payments and NFC/SE Manager",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "SENS",
+    "DisplayName": "System Event Notification Service",
+    "Status": "Running",
+    "StartType": "Automatic",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "SensorDataService",
+    "DisplayName": "Sensor Data Service",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "SensorService",
+    "DisplayName": "Sensor Service",
+    "Status": "Running",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "SensrSvc",
+    "DisplayName": "Sensor Monitoring Service",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "SessionEnv",
+    "DisplayName": "Remote Desktop Configuration",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "SharedAccess",
+    "DisplayName": "Internet Connection Sharing (ICS)",
+    "Status": "Running",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "ShellHWDetection",
+    "DisplayName": "Shell Hardware Detection",
+    "Status": "Running",
+    "StartType": "Automatic",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "shpamsvc",
+    "DisplayName": "Shared PC Account Manager",
+    "Status": "Stopped",
+    "StartType": "Disabled",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "smphost",
+    "DisplayName": "Microsoft Storage Spaces SMP",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "SmsRouter",
+    "DisplayName": "Microsoft Windows SMS Router Service.",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "SNMPTrap",
+    "DisplayName": "SNMP Trap",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "Spooler",
+    "DisplayName": "Print Spooler",
+    "Status": "Running",
+    "StartType": "Automatic",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "sppsvc",
+    "DisplayName": "Software Protection",
+    "Status": "Stopped",
+    "StartType": "AutomaticDelayedStart",
+    "DelayedAutostart": true
+  },
+  {
+    "Name": "SSDPSRV",
+    "DisplayName": "SSDP Discovery",
+    "Status": "Running",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "ssh-agent",
+    "DisplayName": "OpenSSH Authentication Agent",
+    "Status": "Stopped",
+    "StartType": "Disabled",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "SstpSvc",
+    "DisplayName": "Secure Socket Tunneling Protocol Service",
+    "Status": "Running",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "StateRepository",
+    "DisplayName": "State Repository Service",
+    "Status": "Running",
+    "StartType": "Automatic",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "Steam Client Service",
+    "DisplayName": "Steam Client Service",
+    "Status": "Running",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "StiSvc",
+    "DisplayName": "Windows Image Acquisition (WIA)",
+    "Status": "Running",
+    "StartType": "Automatic",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "StorSvc",
+    "DisplayName": "Storage Service",
+    "Status": "Running",
+    "StartType": "AutomaticDelayedStart",
+    "DelayedAutostart": true
+  },
+  {
+    "Name": "svsvc",
+    "DisplayName": "Spot Verifier",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "swprv",
+    "DisplayName": "Microsoft Software Shadow Copy Provider",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "SysMain",
+    "DisplayName": "SysMain",
+    "Status": "Stopped",
+    "StartType": "Disabled",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "SystemEventsBroker",
+    "DisplayName": "System Events Broker",
+    "Status": "Running",
+    "StartType": "Automatic",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "TapiSrv",
+    "DisplayName": "Telephony",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "TermService",
+    "DisplayName": "Remote Desktop Services",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "TextInputManagementService",
+    "DisplayName": "Text Input Management Service",
+    "Status": "Running",
+    "StartType": "Automatic",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "Themes",
+    "DisplayName": "Themes",
+    "Status": "Running",
+    "StartType": "Automatic",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "TieringEngineService",
+    "DisplayName": "Storage Tiers Management",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "TimeBrokerSvc",
+    "DisplayName": "Time Broker",
+    "Status": "Running",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "TokenBroker",
+    "DisplayName": "Web Account Manager",
+    "Status": "Running",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "TrkWks",
+    "DisplayName": "Distributed Link Tracking Client",
+    "Status": "Running",
+    "StartType": "Automatic",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "TroubleshootingSvc",
+    "DisplayName": "Recommended Troubleshooting Service",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "TrustedInstaller",
+    "DisplayName": "Windows Modules Installer",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "tzautoupdate",
+    "DisplayName": "Auto Time Zone Updater",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "UdkUserSvc_9cc3f",
+    "DisplayName": "Servicio de usuario de Udk_9cc3f",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "UmRdpService",
+    "DisplayName": "Remote Desktop Services UserMode Port Redirector",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "UnistoreSvc_9cc3f",
+    "DisplayName": "Almacenamiento de datos de usuarios_9cc3f",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "upnphost",
+    "DisplayName": "UPnP Device Host",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "UserDataSvc_9cc3f",
+    "DisplayName": "Acceso a datos de usuarios_9cc3f",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "UserManager",
+    "DisplayName": "User Manager",
+    "Status": "Running",
+    "StartType": "Automatic",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "UsoSvc",
+    "DisplayName": "Update Orchestrator Service",
+    "Status": "Running",
+    "StartType": "AutomaticDelayedStart",
+    "DelayedAutostart": true
+  },
+  {
+    "Name": "VaultSvc",
+    "DisplayName": "Credential Manager",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "vds",
+    "DisplayName": "Virtual Disk",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "vmcompute",
+    "DisplayName": "Hyper-V Host Compute Service",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "vmicguestinterface",
+    "DisplayName": "Hyper-V Guest Service Interface",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "vmicheartbeat",
+    "DisplayName": "Hyper-V Heartbeat Service",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "vmickvpexchange",
+    "DisplayName": "Hyper-V Data Exchange Service",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "vmicrdv",
+    "DisplayName": "Hyper-V Remote Desktop Virtualization Service",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "vmicshutdown",
+    "DisplayName": "Hyper-V Guest Shutdown Service",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "vmictimesync",
+    "DisplayName": "Hyper-V Time Synchronization Service",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "vmicvmsession",
+    "DisplayName": "Hyper-V PowerShell Direct Service",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "vmicvss",
+    "DisplayName": "Hyper-V Volume Shadow Copy Requestor",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "VSS",
+    "DisplayName": "Volume Shadow Copy",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "W32Time",
+    "DisplayName": "Windows Time",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "WaaSMedicSvc",
+    "DisplayName": "WaaSMedicSvc",
+    "Status": "Stopped",
+    "StartType": null,
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "WalletService",
+    "DisplayName": "WalletService",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "WarpJITSvc",
+    "DisplayName": "Warp JIT Service",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "wbengine",
+    "DisplayName": "Block Level Backup Engine Service",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "WbioSrvc",
+    "DisplayName": "Windows Biometric Service",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "Wcmsvc",
+    "DisplayName": "Windows Connection Manager",
+    "Status": "Running",
+    "StartType": "Automatic",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "wcncsvc",
+    "DisplayName": "Windows Connect Now - Config Registrar",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "WdiServiceHost",
+    "DisplayName": "Diagnostic Service Host",
+    "Status": "Stopped",
+    "StartType": "Disabled",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "WdiSystemHost",
+    "DisplayName": "Diagnostic System Host",
+    "Status": "Running",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "WdNisSvc",
+    "DisplayName": "Microsoft Defender Antivirus Network Inspection Service",
+    "Status": "Running",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "WebClient",
+    "DisplayName": "WebClient",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "webthreatdefsvc",
+    "DisplayName": "Web Threat Defense Service",
+    "Status": "Running",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "webthreatdefusersvc_9cc3f",
+    "DisplayName": "Servicio de usuario de defensa contra amenazas web_9cc3f",
+    "Status": "Running",
+    "StartType": "Automatic",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "Wecsvc",
+    "DisplayName": "Windows Event Collector",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "WEPHOSTSVC",
+    "DisplayName": "Windows Encryption Provider Host Service",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "wercplsupport",
+    "DisplayName": "Problem Reports Control Panel Support",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "WerSvc",
+    "DisplayName": "Windows Error Reporting Service",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "WFDSConMgrSvc",
+    "DisplayName": "Wi-Fi Direct Services Connection Manager Service",
+    "Status": "Running",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "whesvc",
+    "DisplayName": "Windows Health and Optimized Experiences",
+    "Status": "Running",
+    "StartType": "AutomaticDelayedStart",
+    "DelayedAutostart": true
+  },
+  {
+    "Name": "WiaRpc",
+    "DisplayName": "Still Image Acquisition Events",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "WinDefend",
+    "DisplayName": "Microsoft Defender Antivirus Service",
+    "Status": "Running",
+    "StartType": "Automatic",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "WinHttpAutoProxySvc",
+    "DisplayName": "WinHTTP Web Proxy Auto-Discovery Service",
+    "Status": "Running",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "Winmgmt",
+    "DisplayName": "Windows Management Instrumentation",
+    "Status": "Running",
+    "StartType": "Automatic",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "WinRM",
+    "DisplayName": "Windows Remote Management (WS-Management)",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": true
+  },
+  {
+    "Name": "wisvc",
+    "DisplayName": "Windows Insider Service",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "WlanSvc",
+    "DisplayName": "WLAN AutoConfig",
+    "Status": "Running",
+    "StartType": "Automatic",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "wlidsvc",
+    "DisplayName": "Microsoft Account Sign-in Assistant",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "wlpasvc",
+    "DisplayName": "Local Profile Assistant Service",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "WManSvc",
+    "DisplayName": "Windows Management Service",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "wmiApSrv",
+    "DisplayName": "WMI Performance Adapter",
+    "Status": "Running",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "WMPNetworkSvc",
+    "DisplayName": "Windows Media Player Network Sharing Service",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "workfolderssvc",
+    "DisplayName": "Work Folders",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "WpcMonSvc",
+    "DisplayName": "Parental Controls",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "WPDBusEnum",
+    "DisplayName": "Portable Device Enumerator Service",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "WpnService",
+    "DisplayName": "Windows Push Notifications System Service",
+    "Status": "Running",
+    "StartType": "Automatic",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "WpnUserService_9cc3f",
+    "DisplayName": "Servicio de usuario de notificaciones de inserción de Windows_9cc3f",
+    "Status": "Running",
+    "StartType": "Automatic",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "WSAIFabricSvc",
+    "DisplayName": "Windows AI Components Host",
+    "Status": "Running",
+    "StartType": "Automatic",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "wscsvc",
+    "DisplayName": "Security Center",
+    "Status": "Running",
+    "StartType": "AutomaticDelayedStart",
+    "DelayedAutostart": true
+  },
+  {
+    "Name": "WSearch",
+    "DisplayName": "Windows Search",
+    "Status": "Running",
+    "StartType": "Automatic",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "WSLService",
+    "DisplayName": "WSL Service",
+    "Status": "Running",
+    "StartType": "Automatic",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "wuauserv",
+    "DisplayName": "Windows Update",
+    "Status": "Running",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "wuqisvc",
+    "DisplayName": "Microsoft Usage and Quality Insights",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "WwanSvc",
+    "DisplayName": "WWAN AutoConfig",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "XblAuthManager",
+    "DisplayName": "Xbox Live Auth Manager",
+    "Status": "Running",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "XblGameSave",
+    "DisplayName": "Xbox Live Game Save",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "XboxGipSvc",
+    "DisplayName": "Xbox Accessory Management Service",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  },
+  {
+    "Name": "XboxNetApiSvc",
+    "DisplayName": "Xbox Live Networking Service",
+    "Status": "Stopped",
+    "StartType": "Manual",
+    "DelayedAutostart": false
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "timestamp_utc": "2026-11-21T16:54:42Z",
+  "absent_count": 5,
+  "absent_keys": [
+    {
+      "registry_path": "HKLM\\SYSTEM\\CurrentControlSet\\Control\\DeviceGuard\\Scenarios\\HypervisorEnforcedCodeIntegrity",
+      "expected_backup_file": "C:\\Users\\Usuario\\teamwork_projects\\laptop_optimization\\backups\\system\\hklm_hvci.reg",
+      "category": "system_hklm"
+    },
+    {
+      "registry_path": "HKLM\\SYSTEM\\CurrentControlSet\\Control\\Power\\PowerThrottling",
+      "expected_backup_file": "C:\\Users\\Usuario\\teamwork_projects\\laptop_optimization\\backups\\system\\hklm_powerthrottling.reg",
+      "category": "system_hklm"
+    },
+    {
+      "registry_path": "HKLM\\SOFTWARE\\Policies\\Microsoft\\Windows\\GameDVR",
+      "expected_backup_file": "C:\\Users\\Usuario\\teamwork_projects\\laptop_optimization\\backups\\system\\hklm_policies_gamedvr.reg",
+      "category": "system_hklm"
+    },
+    {
+      "registry_path": "HKLM\\SOFTWARE\\Policies\\Microsoft\\Windows\\DeliveryOptimization",
+      "expected_backup_file": "C:\\Users\\Usuario\\teamwork_projects\\laptop_optimization\\backups\\network\\delivery_opt_policy.reg",
+      "category": "network_hklm"
+    },
+    {
+      "registry_path": "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\DeliveryOptimization\\Config",
+      "expected_backup_file": "C:\\Users\\Usuario\\teamwork_projects\\laptop_optimization\\backups\\network\\delivery_opt.reg",
+      "category": "network_hklm"
+    }
+  ]
+}

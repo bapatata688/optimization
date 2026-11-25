@@ -1,0 +1,51 @@
+{
+  "timestamp_utc": "2026-11-25T13:15:14Z",
+  "tag": "post",
+  "is_admin": false,
+  "system_overhead": {
+    "process_count": 202,
+    "available_ram_mb": 12567.35,
+    "pagefile_used_mb": 495.42,
+    "ctx_switches": 5574,
+    "ctx_switches_total": 22901386
+  },
+  "timer_jitter_ms": {
+    "mean": 0.5848,
+    "p95": 0.893,
+    "p99": 1.0867,
+    "max": 1.3865
+  },
+  "cpu_bench": {
+    "single_thread_ms": 123.704,
+    "multi_thread_gflops": 393.94
+  },
+  "gpu_bench": {
+    "device_name": "NVIDIA GeForce GTX 1650",
+    "cuda_fp32_tflops": 1.856,
+    "h2d_gbps": 6.639,
+    "kernel_launch_us": 17.748,
+    "avg_clock_mhz": 1785.0,
+    "max_power_w": 63.81,
+    "max_temp_c": 46.9,
+    "throttle_reasons": "none (0x0)"
+  },
+  "disk_bench": {
+    "seq_read_mbps": 271.44,
+    "seq_write_mbps": 227.94,
+    "rand4k_read_iops": 6223.8
+  },
+  "os_state": {
+    "active_power_plan": "46476e86-f770-4378-857e-3a25bf0336b4 (Gaming Estable (Sin Bateria))",
+    "usb_suspend_ac": false,
+    "gamedvr_enabled": false,
+    "transparency_enabled": false,
+    "hiberfil_exists": false,
+    "vbs_status": 2
+  },
+  "event_errors": {
+    "nvlddmkm_count": 5,
+    "kernel_power_count": 16,
+    "scm_error_count": 33,
+    "window_hours": 168
+  }
+}

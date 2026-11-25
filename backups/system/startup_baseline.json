@@ -1,0 +1,145 @@
+{
+  "timestamp_utc": "2026-11-21T16:54:42Z",
+  "win32_startup_command": [
+    {
+      "Name": "EpicGamesLauncher",
+      "Command": "\"C:\\Program Files\\Epic Games\\Launcher\\Portal\\Binaries\\Win64\\EpicGamesLauncher.exe\" -silent -launchcontext=boot",
+      "Location": "HKU\\S-1-5-21-700623698-3215751055-1624338054-1001\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run",
+      "User": "DESKTOP-7PTA61E\\Usuario"
+    },
+    {
+      "Name": "AMDNoiseSuppression",
+      "Command": "\"C:\\WINDOWS\\system32\\AMD\\ANR\\AMDNoiseSuppression.exe\"",
+      "Location": "HKU\\S-1-5-21-700623698-3215751055-1624338054-1001\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run",
+      "User": "DESKTOP-7PTA61E\\Usuario"
+    },
+    {
+      "Name": "Steam",
+      "Command": "\"C:\\Program Files (x86)\\Steam\\steam.exe\" -silent",
+      "Location": "HKU\\S-1-5-21-700623698-3215751055-1624338054-1001\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run",
+      "User": "DESKTOP-7PTA61E\\Usuario"
+    },
+    {
+      "Name": "com.overwolf.curseforge",
+      "Command": "\"C:\\Users\\Usuario\\AppData\\Local\\Programs\\CurseForge Windows\\CurseForge.exe\" --minimized",
+      "Location": "HKU\\S-1-5-21-700623698-3215751055-1624338054-1001\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run",
+      "User": "DESKTOP-7PTA61E\\Usuario"
+    },
+    {
+      "Name": "utweb",
+      "Command": "\"C:\\Users\\Usuario\\AppData\\Roaming\\uTorrent Web\\utweb.exe\" /MINIMIZED",
+      "Location": "HKU\\S-1-5-21-700623698-3215751055-1624338054-1001\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run",
+      "User": "DESKTOP-7PTA61E\\Usuario"
+    },
+    {
+      "Name": "nefarius_HidHide_Updater",
+      "Command": "\"C:\\Program Files\\Nefarius Software Solutions\\HidHide\\x64\\nefarius_HidHide_Updater.exe\" --autostart",
+      "Location": "HKU\\S-1-5-21-700623698-3215751055-1624338054-1001\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run",
+      "User": "DESKTOP-7PTA61E\\Usuario"
+    },
+    {
+      "Name": "Free Download Manager",
+      "Command": "\"C:\\Program Files\\Softdeluxe\\Free Download Manager\\fdm.exe\" --hidden",
+      "Location": "HKU\\S-1-5-21-700623698-3215751055-1624338054-1001\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run",
+      "User": "DESKTOP-7PTA61E\\Usuario"
+    },
+    {
+      "Name": "Docker Desktop",
+      "Command": "C:\\Users\\Usuario\\AppData\\Local\\Programs\\DockerDesktop\\Docker Desktop.exe",
+      "Location": "HKU\\S-1-5-21-700623698-3215751055-1624338054-1001\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run",
+      "User": "DESKTOP-7PTA61E\\Usuario"
+    },
+    {
+      "Name": "FxSound",
+      "Command": "C:\\PROGRA~1\\FXSOUN~1\\FxSound\\FxSound.exe ",
+      "Location": "Common Startup",
+      "User": "Public"
+    },
+    {
+      "Name": "SecurityHealth",
+      "Command": "%windir%\\system32\\SecurityHealthSystray.exe",
+      "Location": "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run",
+      "User": "Public"
+    },
+    {
+      "Name": "RtkAudUService",
+      "Command": "\"C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\realtekservice.inf_amd64_9366beb5d0043df3\\RtkAudUService64.exe\" -background",
+      "Location": "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run",
+      "User": "Public"
+    },
+    {
+      "Name": "XMouseButtonControl",
+      "Command": "C:\\Program Files\\Highresolution Enterprises\\X-Mouse Button Control\\XMouseButtonControl.exe /notportable /delay",
+      "Location": "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run",
+      "User": "Public"
+    }
+  ],
+  "startup_approved": [
+    {
+      "registry_path": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\StartupApproved\\Run",
+      "name": "MicrosoftEdgeAutoLaunch_D74866CC9A9FD7473DAB98067A84C526",
+      "enabled": true,
+      "bytes_hex": "020000000000000000000000"
+    },
+    {
+      "registry_path": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\StartupApproved\\Run",
+      "name": "OneDriveSetup",
+      "enabled": true,
+      "bytes_hex": "020000000000000000000000"
+    },
+    {
+      "registry_path": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\StartupApproved\\Run",
+      "name": "AMDNoiseSuppression",
+      "enabled": true,
+      "bytes_hex": "020000000000000000000000"
+    },
+    {
+      "registry_path": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\StartupApproved\\Run",
+      "name": "com.overwolf.curseforge",
+      "enabled": true,
+      "bytes_hex": "020000000000000000000000"
+    },
+    {
+      "registry_path": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\StartupApproved\\Run",
+      "name": "EpicGamesLauncher",
+      "enabled": true,
+      "bytes_hex": "020000000000000000000000"
+    },
+    {
+      "registry_path": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\StartupApproved\\Run",
+      "name": "Steam",
+      "enabled": true,
+      "bytes_hex": "020000000000000000000000"
+    },
+    {
+      "registry_path": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\StartupApproved\\Run",
+      "name": "utweb",
+      "enabled": false,
+      "bytes_hex": "03000000856A39CAF142DD01"
+    },
+    {
+      "registry_path": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\StartupApproved\\Run",
+      "name": "Docker Desktop",
+      "enabled": false,
+      "bytes_hex": "010000000000000000000000"
+    },
+    {
+      "registry_path": "HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\StartupApproved\\Run",
+      "name": "SecurityHealth",
+      "enabled": true,
+      "bytes_hex": "060000000000000000000000"
+    },
+    {
+      "registry_path": "HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\StartupApproved\\Run",
+      "name": "RtkAudUService",
+      "enabled": true,
+      "bytes_hex": "020000000000000000000000"
+    },
+    {
+      "registry_path": "HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\StartupApproved\\Run",
+      "name": "XMouseButtonControl",
+      "enabled": true,
+      "bytes_hex": "020000000000000000000000"
+    }
+  ]
+}

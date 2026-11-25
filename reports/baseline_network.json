@@ -1,0 +1,132 @@
+{
+  "timestamp_utc": "2026-11-21T16:56:40Z",
+  "tag": "baseline",
+  "adapter": {
+    "name": "Wi-Fi",
+    "status": "Up",
+    "link_speed": "866.7 Mbps",
+    "ssid": "CLARO2_F3E3B9",
+    "band": "5 GHz",
+    "channel": 36,
+    "rssi_dbm": -67,
+    "dns_servers": [
+      "1.1.1.1",
+      "1.0.0.1"
+    ]
+  },
+  "gateway_ping": {
+    "target": "192.168.1.1",
+    "packet1_ms": 14.956,
+    "min_ms": 1.418,
+    "avg_ms": 3.065,
+    "p50_ms": 2.406,
+    "p95_ms": 5.718,
+    "p99_ms": 12.83,
+    "max_ms": 14.956,
+    "jitter_ms": 1.112,
+    "loss_pct": 0.0
+  },
+  "public_pings": [
+    {
+      "target": "9.9.9.9",
+      "packet1_ms": 40.467,
+      "min_ms": 38.358,
+      "avg_ms": 42.292,
+      "p50_ms": 41.525,
+      "p95_ms": 48.195,
+      "p99_ms": 53.951,
+      "max_ms": 57.851,
+      "jitter_ms": 2.724,
+      "loss_pct": 0.0
+    },
+    {
+      "target": "8.8.8.8",
+      "packet1_ms": 46.438,
+      "min_ms": 45.507,
+      "avg_ms": 47.122,
+      "p50_ms": 46.646,
+      "p95_ms": 49.358,
+      "p99_ms": 56.246,
+      "max_ms": 59.11,
+      "jitter_ms": 1.693,
+      "loss_pct": 0.0
+    },
+    {
+      "target": "1.1.1.1",
+      "packet1_ms": 67.909,
+      "min_ms": 65.151,
+      "avg_ms": 66.568,
+      "p50_ms": 66.424,
+      "p95_ms": 68.258,
+      "p99_ms": 72.133,
+      "max_ms": 73.292,
+      "jitter_ms": 1.582,
+      "loss_pct": 0.0
+    }
+  ],
+  "dns_bench": [
+    {
+      "server": "9.9.9.9",
+      "is_current_dns": false,
+      "avg_ms": 45.975,
+      "p95_ms": 69.084,
+      "min_ms": 38.811,
+      "max_ms": 83.163,
+      "loss_pct": 0.0
+    },
+    {
+      "server": "8.8.8.8",
+      "is_current_dns": false,
+      "avg_ms": 51.757,
+      "p95_ms": 57.271,
+      "min_ms": 40.195,
+      "max_ms": 59.993,
+      "loss_pct": 0.0
+    },
+    {
+      "server": "1.1.1.1",
+      "is_current_dns": true,
+      "avg_ms": 69.471,
+      "p95_ms": 71.296,
+      "min_ms": 66.456,
+      "max_ms": 71.403,
+      "loss_pct": 0.0
+    },
+    {
+      "server": "1.0.0.1",
+      "is_current_dns": true,
+      "avg_ms": 69.459,
+      "p95_ms": 72.081,
+      "min_ms": 67.386,
+      "max_ms": 72.271,
+      "loss_pct": 0.0
+    },
+    {
+      "server": "216.230.147.90",
+      "is_current_dns": false,
+      "avg_ms": 38.362,
+      "p95_ms": 113.612,
+      "min_ms": 9.489,
+      "max_ms": 121.398,
+      "loss_pct": 0.0
+    },
+    {
+      "server": "216.230.139.8",
+      "is_current_dns": false,
+      "avg_ms": 18.594,
+      "p95_ms": 53.181,
+      "min_ms": 9.502,
+      "max_ms": 62.827,
+      "loss_pct": 0.0
+    }
+  ],
+  "nic_power_state": {
+    "lps_en": 2,
+    "roam_level": 80,
+    "ms_power_device_enable": true,
+    "pnp_capabilities": 16,
+    "dc_wireless_ps": 2,
+    "dc_pcie_aspm": 2
+  },
+  "connectivity_ok": true
+}

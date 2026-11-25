@@ -1,0 +1,441 @@
+[2026-11-21T23:14:16Z] [INFO] [user] Starting apply_network_user.ps1 (DryRun=True, ReportDir='C:\Users\Usuario\teamwork_projects\laptop_optimization\reports')
+[2026-11-21T23:14:16Z] [INFO] [user] --- F6/F13 User-Space: StartupApproved\Run P2P Cleanup ---
+[2026-11-21T23:14:16Z] [DRY-RUN] [user] Would write 12-byte disabled REG_BINARY (0x03...) to StartupApproved\Run\'Free Download Manager' (current: <missing>).
+[2026-11-21T23:14:16Z] [SKIP] [user] StartupApproved\Run\'utweb' already disabled (byte0=0x03, len=12, data=03000000856A39CAF142DD01).
+[2026-11-21T23:14:16Z] [INFO] [user] Protected startup items untouched: FxSound, XMouseButtonControl, SecurityHealth, RtkAudUService, Zen Browser. No registry keys or values deleted.
+[2026-11-21T23:14:16Z] [INFO] [user] --- F13 User-Space: Stop Active P2P / Download Hog Processes ---
+[2026-11-21T23:14:16Z] [DRY-RUN] [user] Would stop P2P/download process 'fdm' (count=1, PIDs: 14948) and verify exit.
+[2026-11-21T23:14:16Z] [SKIP] [user] Process 'utweb' is not running.
+[2026-11-21T23:14:16Z] [SKIP] [user] Process 'qbittorrent' is not running.
+[2026-11-21T23:14:16Z] [SKIP] [user] Process 'utorrent' is not running.
+[2026-11-21T23:14:16Z] [INFO] [user] --- F13 User-Space: Read-Only Advisory Status (Wi-Fi DNS & DoSvc) ---
+[2026-11-21T23:14:17Z] [INFO] [user] Advisory (read-only): Wi-Fi IPv4 DNS servers = [1.1.1.1, 1.0.0.1] (preserved; admin script handles optional override & benchmark).
+[2026-11-21T23:14:17Z] [INFO] [user] Advisory (read-only): DoSvc=Running/Automatic, Policy=<policy key absent> (HKLM mutations delegated to apply_network_admin.ps1).
+[2026-11-21T23:14:17Z] [INFO] [user] Completed apply_network_user.ps1 cleanly (DryRun=True).
+[2026-11-21T23:15:19Z] [INFO] [user] Starting apply_network_user.ps1 (DryRun=False, ReportDir='C:\Users\Usuario\teamwork_projects\laptop_optimization\reports')
+[2026-11-21T23:15:19Z] [INFO] [user] --- F6/F13 User-Space: StartupApproved\Run P2P Cleanup ---
+[2026-11-21T23:15:19Z] [APPLIED] [user] Disabled StartupApproved\Run\'Free Download Manager' (previous: <missing>, new: 030000004DCE122D0E7ADD01).
+[2026-11-21T23:15:19Z] [SKIP] [user] StartupApproved\Run\'utweb' already disabled (byte0=0x03, len=12, data=03000000856A39CAF142DD01).
+[2026-11-21T23:15:19Z] [INFO] [user] Protected startup items untouched: FxSound, XMouseButtonControl, SecurityHealth, RtkAudUService, Zen Browser. No registry keys or values deleted.
+[2026-11-21T23:15:19Z] [INFO] [user] --- F13 User-Space: Stop Active P2P / Download Hog Processes ---
+[2026-11-21T23:15:19Z] [APPLIED] [user] Stopped and verified termination of 'fdm' (PID 14948).
+[2026-11-21T23:15:19Z] [SKIP] [user] Process 'utweb' is not running.
+[2026-11-21T23:15:19Z] [SKIP] [user] Process 'qbittorrent' is not running.
+[2026-11-21T23:15:19Z] [SKIP] [user] Process 'utorrent' is not running.
+[2026-11-21T23:15:19Z] [INFO] [user] --- F13 User-Space: Read-Only Advisory Status (Wi-Fi DNS & DoSvc) ---
+[2026-11-21T23:15:20Z] [INFO] [user] Advisory (read-only): Wi-Fi IPv4 DNS servers = [1.1.1.1, 1.0.0.1] (preserved; admin script handles optional override & benchmark).
+[2026-11-21T23:15:20Z] [INFO] [user] Advisory (read-only): DoSvc=Running/Automatic, Policy=<policy key absent> (HKLM mutations delegated to apply_network_admin.ps1).
+[2026-11-21T23:15:20Z] [INFO] [user] Completed apply_network_user.ps1 cleanly (DryRun=False).
+[2026-11-22T02:12:02Z] [INFO] [user] Starting apply_network_user.ps1 (DryRun=False, ReportDir='C:\Users\Usuario\teamwork_projects\laptop_optimization\reports')
+[2026-11-22T02:12:02Z] [INFO] [user] --- F6/F13 User-Space: StartupApproved\Run P2P Cleanup ---
+[2026-11-22T02:12:02Z] [SKIP] [user] StartupApproved\Run\'Free Download Manager' already disabled (byte0=0x03, len=12, data=030000004DCE122D0E7ADD01).
+[2026-11-22T02:12:02Z] [SKIP] [user] StartupApproved\Run\'utweb' already disabled (byte0=0x03, len=12, data=03000000856A39CAF142DD01).
+[2026-11-22T02:12:02Z] [INFO] [user] Protected startup items untouched: FxSound, XMouseButtonControl, SecurityHealth, RtkAudUService, Zen Browser. No registry keys or values deleted.
+[2026-11-22T02:12:02Z] [INFO] [user] --- F13 User-Space: Stop Active P2P / Download Hog Processes ---
+[2026-11-22T02:12:02Z] [SKIP] [user] Process 'fdm' is not running.
+[2026-11-22T02:12:02Z] [SKIP] [user] Process 'utweb' is not running.
+[2026-11-22T02:12:02Z] [SKIP] [user] Process 'qbittorrent' is not running.
+[2026-11-22T02:12:02Z] [SKIP] [user] Process 'utorrent' is not running.
+[2026-11-22T02:12:02Z] [INFO] [user] --- F13 User-Space: Read-Only Advisory Status (Wi-Fi DNS & DoSvc) ---
+[2026-11-22T02:12:03Z] [INFO] [user] Advisory (read-only): Wi-Fi IPv4 DNS servers = [1.1.1.1, 1.0.0.1] (preserved; admin script handles optional override & benchmark).
+[2026-11-22T02:12:03Z] [INFO] [user] Advisory (read-only): DoSvc=Running/Automatic, Policy=<policy key absent> (HKLM mutations delegated to apply_network_admin.ps1).
+[2026-11-22T02:12:03Z] [INFO] [user] Completed apply_network_user.ps1 cleanly (DryRun=False).
+[2026-11-22T02:12:05Z] [INFO] [admin] Starting apply_network_admin.ps1 (IsAdmin=False, DryRun=True, SkipDnsBenchmark=False, DnsServers=[], BackupDir='C:\Users\Usuario\teamwork_projects\laptop_optimization\backups')
+[2026-11-22T02:12:05Z] [DRY-RUN] [admin] No .pow exports found in 'C:\Users\Usuario\teamwork_projects\laptop_optimization\backups\power'; when elevated would run 'C:\Users\Usuario\teamwork_projects\laptop_optimization\scripts\backup_baseline.ps1 -BackupRoot "C:\Users\Usuario\teamwork_projects\laptop_optimization\backups" -IncludeElevated' (never -Force).
+[2026-11-22T02:12:08Z] [INFO] [admin] Resolved NICs: Wi-Fi Guid={DC81AC1D-451F-40ED-90E3-150F8B550C51} Class='HKLM:\SYSTEM\CurrentControlSet\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\0011'; Ethernet Guid={1FDAF09D-6A12-453A-976C-E47B20E349A6} Class='HKLM:\SYSTEM\CurrentControlSet\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\0002'.
+[2026-11-22T02:12:08Z] [INFO] [admin] --- F11: Wi-Fi Power-Saving, DC ASPM/Wireless & NIC Power ---
+[2026-11-22T02:12:08Z] [SKIP] [admin] Active power scheme is already 'Gaming Estable (Sin Bateria)' (46476e86-f770-4378-857e-3a25bf0336b4).
+[2026-11-22T02:12:08Z] [INFO] [admin] Power guardrails preserved (46476e86-f770-4378-857e-3a25bf0336b4): PROCTHROTTLEMAX AC=99% (never >99%), PERFBOOSTMODE AC=0 (never >0).
+[2026-11-22T02:12:08Z] [SKIP] [admin] Power setting 'Wireless Power Saving' AC already 0 on 46476e86-f770-4378-857e-3a25bf0336b4.
+[2026-11-22T02:12:08Z] [DRY-RUN] [admin] Would set 'Wireless Power Saving' DC from 2 to 0 on 46476e86-f770-4378-857e-3a25bf0336b4.
+[2026-11-22T02:12:08Z] [SKIP] [admin] Power setting 'PCIe ASPM' AC already 0 on 46476e86-f770-4378-857e-3a25bf0336b4.
+[2026-11-22T02:12:08Z] [DRY-RUN] [admin] Would set 'PCIe ASPM' DC from 2 to 0 on 46476e86-f770-4378-857e-3a25bf0336b4.
+[2026-11-22T02:12:08Z] [SKIP] [admin] NIC 'Wi-Fi' [LpsEn] already '0' (Low).
+[2026-11-22T02:12:08Z] [DRY-RUN] [admin] Would set HKLM:\SYSTEM\CurrentControlSet\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\0011\PnPCapabilities = 24 (DWord) (current: 16 (DWord)).
+[2026-11-22T02:12:08Z] [DRY-RUN] [admin] Would set MSPower_DeviceEnable.Enable = False for 'Wi-Fi' (PCI\VEN_10EC&DEV_8852&SUBSYS_485217AA&REV_00\00E04CFFFE88520100_0).
+[2026-11-22T02:12:08Z] [DRY-RUN] [admin] Would invoke Set-NetAdapterPowerManagement -Name 'Wi-Fi' -AllowComputerToTurnOffDevice Disabled -NoRestart (if supported by driver).
+[2026-11-22T02:12:08Z] [DRY-RUN] [admin] Would set HKLM:\SYSTEM\CurrentControlSet\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\0002\PnPCapabilities = 24 (DWord) (current: <missing>).
+[2026-11-22T02:12:08Z] [DRY-RUN] [admin] Would set MSPower_DeviceEnable.Enable = False for 'Ethernet' (PCI\VEN_10EC&DEV_8168&SUBSYS_390917AA&REV_15\01000000684CE00000_0).
+[2026-11-22T02:12:08Z] [DRY-RUN] [admin] Would invoke Set-NetAdapterPowerManagement -Name 'Ethernet' -AllowComputerToTurnOffDevice Disabled -NoRestart (if supported by driver).
+[2026-11-22T02:12:08Z] [INFO] [admin] --- F12: Wi-Fi Roaming Lock & 2.4 GHz Guard ---
+[2026-11-22T02:12:08Z] [DRY-RUN] [admin] Would set NIC 'Wi-Fi' [RegROAMSensitiveLevel] from '80' (Low) to '127' (Deshabilitar roaming).
+[2026-11-22T02:12:08Z] [SKIP] [admin] NIC 'Wi-Fi' [PreferBand] already '2' (3. 5G first).
+[2026-11-22T02:12:09Z] [DRY-RUN] [admin] Would run: netsh wlan set profileparameter name="CLARO1_F3E3B9" connectionmode=manual (2.4 GHz fallback guard).
+[2026-11-22T02:12:09Z] [SKIP] [admin] WLAN profile 'CLARO2_F3E3B9' (5 GHz primary) already connectionmode=auto.
+[2026-11-22T02:12:09Z] [SKIP] [admin] Verified gaming_wlan_scan_toggle.ps1 present; steady-state WLAN autoconfig=True, WlanSvc=Running.
+[2026-11-22T02:12:09Z] [INFO] [admin] Per-session WLAN scan toggle: before gaming run 'pwsh -NoProfile -File scripts\gaming_wlan_scan_toggle.ps1 -Mode gaming'; after gaming run '... -Mode restore'.
+[2026-11-22T02:12:09Z] [INFO] [admin] --- F13: DoSvc Policy, NetworkDaemon & DNS Preservation ---
+[2026-11-22T02:12:09Z] [DRY-RUN] [admin] Would create key 'HKLM:\SOFTWARE\Policies\Microsoft\Windows\DeliveryOptimization' and set 'DODownloadMode' = 0 (DWord) (current: <key missing>).
+[2026-11-22T02:12:09Z] [DRY-RUN] [admin] Would create key 'HKLM:\SOFTWARE\Policies\Microsoft\Windows\DeliveryOptimization' and set 'DOPercentageMaxBackgroundBandwidth' = 25 (DWord) (current: <key missing>).
+[2026-11-22T02:12:09Z] [DRY-RUN] [admin] Would stop and disable service 'NetworkDaemon' (Status=Stopped, Start=2).
+[2026-11-22T02:12:10Z] [SKIP] [admin] Preserving existing Wi-Fi IPv4 DNS [1.1.1.1, 1.0.0.1] untouched (-DnsServers not specified; user guardrail active).
+[2026-11-22T02:12:12Z] [INFO] [admin] Advisory DNS/ICMP benchmark (read-only): 1.1.1.1: ICMP=92.92ms / DNS=97.91ms; 9.9.9.9: ICMP=94.49ms / DNS=95.31ms; 8.8.8.8: ICMP=37.53ms / DNS=60.35ms. To switch DNS explicitly, pass -DnsServers @('9.9.9.9','8.8.8.8').
+[2026-11-22T02:12:12Z] [INFO] [admin] --- F14: Ethernet Standby, TCP Stack & Offload Preservation ---
+[2026-11-22T02:12:12Z] [DRY-RUN] [admin] Would set NIC 'Ethernet' [EnableGreenEthernet] from '1' (Activado) to '0' (Ethernet ecologico).
+[2026-11-22T02:12:12Z] [DRY-RUN] [admin] Would set NIC 'Ethernet' [PowerSavingMode] from '1' (Activado) to '0' (Power Saving Mode).
+[2026-11-22T02:12:12Z] [DRY-RUN] [admin] Would set NIC 'Ethernet' [GigaLite] from '1' (Activado) to '0' (Gigabit Lite).
+[2026-11-22T02:12:12Z] [DRY-RUN] [admin] Would set NIC 'Ethernet' [*InterruptModeration] from '1' (Enabled) to '0' (Interrupt Moderation).
+[2026-11-22T02:12:12Z] [DRY-RUN] [admin] Would set NIC 'Ethernet' [*FlowControl] from '3' (Rx y Tx activado) to '0' (Flow Control).
+[2026-11-22T02:12:12Z] [INFO] [admin] Verified Ethernet checksum offloads preserved (target '3'): *IPChecksumOffloadIPv4=3, *TCPChecksumOffloadIPv4=3, *TCPChecksumOffloadIPv6=3, *UDPChecksumOffloadIPv4=3, *UDPChecksumOffloadIPv6=3.
+[2026-11-22T02:12:12Z] [INFO] [admin] Protected core network services untouched: Dhcp=Running/Automatic, NlaSvc=Stopped/Manual.
+[2026-11-22T02:12:12Z] [SKIP] [admin] TCP global rsc already 'disabled'.
+[2026-11-22T02:12:12Z] [SKIP] [admin] TCP global rss already 'enabled'.
+[2026-11-22T02:12:12Z] [SKIP] [admin] TCP global autotuninglevel already 'normal'.
+[2026-11-22T02:12:12Z] [SKIP] [admin] TCP global ecncapability already 'disabled'.
+[2026-11-22T02:12:12Z] [SKIP] [admin] TCP global timestamps already 'disabled'.
+[2026-11-22T02:12:12Z] [SKIP] [admin] TCP global nonsackrttresiliency already 'disabled'.
+[2026-11-22T02:12:12Z] [SKIP] [admin] Wi-Fi RSC already disabled (IPv4Enabled=False, IPv6Enabled=False).
+[2026-11-22T02:12:12Z] [SKIP] [admin] HKLM:\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Interfaces\{DC81AC1D-451F-40ED-90E3-150F8B550C51}\TcpAckFrequency already 1 (DWord).
+[2026-11-22T02:12:12Z] [SKIP] [admin] HKLM:\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Interfaces\{DC81AC1D-451F-40ED-90E3-150F8B550C51}\TCPNoDelay already 1 (DWord).
+[2026-11-22T02:12:12Z] [SKIP] [admin] HKLM:\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Interfaces\{1FDAF09D-6A12-453A-976C-E47B20E349A6}\TcpAckFrequency already 1 (DWord).
+[2026-11-22T02:12:12Z] [SKIP] [admin] HKLM:\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Interfaces\{1FDAF09D-6A12-453A-976C-E47B20E349A6}\TCPNoDelay already 1 (DWord).
+[2026-11-22T02:12:12Z] [SKIP] [admin] HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile\NetworkThrottlingIndex already -1 (DWord).
+[2026-11-22T02:12:12Z] [SKIP] [admin] HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile\SystemResponsiveness already 0 (DWord).
+[2026-11-22T02:12:13Z] [SKIP] [admin] QoS policy 'Fortnite_Gaming_QoS' preserved (DSCP=46, App=FortniteClient-Win64-Shipping.exe).
+[2026-11-22T02:12:13Z] [INFO] [admin] Baseline QoS policy 'FortnitePriorizacion' preserved (DSCP=46, App=FortniteClient-Win64-Shipping.exe).
+[2026-11-22T02:12:13Z] [INFO] [admin] Completed apply_network_admin.ps1 cleanly (DryRun=True).
+[2026-11-22T02:12:15Z] [INFO] [admin] Starting apply_network_admin.ps1 (IsAdmin=False, DryRun=True, SkipDnsBenchmark=False, DnsServers=[], BackupDir='C:\Users\Usuario\teamwork_projects\laptop_optimization\backups')
+[2026-11-22T02:12:16Z] [DRY-RUN] [admin] No .pow exports found in 'C:\Users\Usuario\teamwork_projects\laptop_optimization\backups\power'; when elevated would run 'C:\Users\Usuario\teamwork_projects\laptop_optimization\scripts\backup_baseline.ps1 -BackupRoot "C:\Users\Usuario\teamwork_projects\laptop_optimization\backups" -IncludeElevated' (never -Force).
+[2026-11-22T02:12:17Z] [INFO] [admin] Resolved NICs: Wi-Fi Guid={DC81AC1D-451F-40ED-90E3-150F8B550C51} Class='HKLM:\SYSTEM\CurrentControlSet\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\0011'; Ethernet Guid={1FDAF09D-6A12-453A-976C-E47B20E349A6} Class='HKLM:\SYSTEM\CurrentControlSet\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\0002'.
+[2026-11-22T02:12:17Z] [INFO] [admin] --- F11: Wi-Fi Power-Saving, DC ASPM/Wireless & NIC Power ---
+[2026-11-22T02:12:17Z] [SKIP] [admin] Active power scheme is already 'Gaming Estable (Sin Bateria)' (46476e86-f770-4378-857e-3a25bf0336b4).
+[2026-11-22T02:12:17Z] [INFO] [admin] Power guardrails preserved (46476e86-f770-4378-857e-3a25bf0336b4): PROCTHROTTLEMAX AC=99% (never >99%), PERFBOOSTMODE AC=0 (never >0).
+[2026-11-22T02:12:17Z] [SKIP] [admin] Power setting 'Wireless Power Saving' AC already 0 on 46476e86-f770-4378-857e-3a25bf0336b4.
+[2026-11-22T02:12:17Z] [DRY-RUN] [admin] Would set 'Wireless Power Saving' DC from 2 to 0 on 46476e86-f770-4378-857e-3a25bf0336b4.
+[2026-11-22T02:12:17Z] [SKIP] [admin] Power setting 'PCIe ASPM' AC already 0 on 46476e86-f770-4378-857e-3a25bf0336b4.
+[2026-11-22T02:12:17Z] [DRY-RUN] [admin] Would set 'PCIe ASPM' DC from 2 to 0 on 46476e86-f770-4378-857e-3a25bf0336b4.
+[2026-11-22T02:12:17Z] [SKIP] [admin] NIC 'Wi-Fi' [LpsEn] already '0' (Low).
+[2026-11-22T02:12:17Z] [DRY-RUN] [admin] Would set HKLM:\SYSTEM\CurrentControlSet\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\0011\PnPCapabilities = 24 (DWord) (current: 16 (DWord)).
+[2026-11-22T02:12:17Z] [DRY-RUN] [admin] Would set MSPower_DeviceEnable.Enable = False for 'Wi-Fi' (PCI\VEN_10EC&DEV_8852&SUBSYS_485217AA&REV_00\00E04CFFFE88520100_0).
+[2026-11-22T02:12:17Z] [DRY-RUN] [admin] Would invoke Set-NetAdapterPowerManagement -Name 'Wi-Fi' -AllowComputerToTurnOffDevice Disabled -NoRestart (if supported by driver).
+[2026-11-22T02:12:17Z] [DRY-RUN] [admin] Would set HKLM:\SYSTEM\CurrentControlSet\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\0002\PnPCapabilities = 24 (DWord) (current: <missing>).
+[2026-11-22T02:12:17Z] [DRY-RUN] [admin] Would set MSPower_DeviceEnable.Enable = False for 'Ethernet' (PCI\VEN_10EC&DEV_8168&SUBSYS_390917AA&REV_15\01000000684CE00000_0).
+[2026-11-22T02:12:17Z] [DRY-RUN] [admin] Would invoke Set-NetAdapterPowerManagement -Name 'Ethernet' -AllowComputerToTurnOffDevice Disabled -NoRestart (if supported by driver).
+[2026-11-22T02:12:17Z] [INFO] [admin] --- F12: Wi-Fi Roaming Lock & 2.4 GHz Guard ---
+[2026-11-22T02:12:17Z] [DRY-RUN] [admin] Would set NIC 'Wi-Fi' [RegROAMSensitiveLevel] from '80' (Low) to '127' (Deshabilitar roaming).
+[2026-11-22T02:12:17Z] [SKIP] [admin] NIC 'Wi-Fi' [PreferBand] already '2' (3. 5G first).
+[2026-11-22T02:12:17Z] [DRY-RUN] [admin] Would run: netsh wlan set profileparameter name="CLARO1_F3E3B9" connectionmode=manual (2.4 GHz fallback guard).
+[2026-11-22T02:12:17Z] [SKIP] [admin] WLAN profile 'CLARO2_F3E3B9' (5 GHz primary) already connectionmode=auto.
+[2026-11-22T02:12:17Z] [SKIP] [admin] Verified gaming_wlan_scan_toggle.ps1 present; steady-state WLAN autoconfig=True, WlanSvc=Running.
+[2026-11-22T02:12:17Z] [INFO] [admin] Per-session WLAN scan toggle: before gaming run 'pwsh -NoProfile -File scripts\gaming_wlan_scan_toggle.ps1 -Mode gaming'; after gaming run '... -Mode restore'.
+[2026-11-22T02:12:17Z] [INFO] [admin] --- F13: DoSvc Policy, NetworkDaemon & DNS Preservation ---
+[2026-11-22T02:12:17Z] [DRY-RUN] [admin] Would create key 'HKLM:\SOFTWARE\Policies\Microsoft\Windows\DeliveryOptimization' and set 'DODownloadMode' = 0 (DWord) (current: <key missing>).
+[2026-11-22T02:12:17Z] [DRY-RUN] [admin] Would create key 'HKLM:\SOFTWARE\Policies\Microsoft\Windows\DeliveryOptimization' and set 'DOPercentageMaxBackgroundBandwidth' = 25 (DWord) (current: <key missing>).
+[2026-11-22T02:12:17Z] [DRY-RUN] [admin] Would stop and disable service 'NetworkDaemon' (Status=Stopped, Start=2).
+[2026-11-22T02:12:18Z] [SKIP] [admin] Preserving existing Wi-Fi IPv4 DNS [1.1.1.1, 1.0.0.1] untouched (-DnsServers not specified; user guardrail active).
+[2026-11-22T02:12:20Z] [INFO] [admin] Advisory DNS/ICMP benchmark (read-only): 1.1.1.1: ICMP=95.72ms / DNS=98.73ms; 9.9.9.9: ICMP=94.09ms / DNS=116.42ms; 8.8.8.8: ICMP=35.94ms / DNS=52.85ms. To switch DNS explicitly, pass -DnsServers @('9.9.9.9','8.8.8.8').
+[2026-11-22T02:12:20Z] [INFO] [admin] --- F14: Ethernet Standby, TCP Stack & Offload Preservation ---
+[2026-11-22T02:12:20Z] [DRY-RUN] [admin] Would set NIC 'Ethernet' [EnableGreenEthernet] from '1' (Activado) to '0' (Ethernet ecologico).
+[2026-11-22T02:12:20Z] [DRY-RUN] [admin] Would set NIC 'Ethernet' [PowerSavingMode] from '1' (Activado) to '0' (Power Saving Mode).
+[2026-11-22T02:12:20Z] [DRY-RUN] [admin] Would set NIC 'Ethernet' [GigaLite] from '1' (Activado) to '0' (Gigabit Lite).
+[2026-11-22T02:12:20Z] [DRY-RUN] [admin] Would set NIC 'Ethernet' [*InterruptModeration] from '1' (Enabled) to '0' (Interrupt Moderation).
+[2026-11-22T02:12:20Z] [DRY-RUN] [admin] Would set NIC 'Ethernet' [*FlowControl] from '3' (Rx y Tx activado) to '0' (Flow Control).
+[2026-11-22T02:12:20Z] [INFO] [admin] Verified Ethernet checksum offloads preserved (target '3'): *IPChecksumOffloadIPv4=3, *TCPChecksumOffloadIPv4=3, *TCPChecksumOffloadIPv6=3, *UDPChecksumOffloadIPv4=3, *UDPChecksumOffloadIPv6=3.
+[2026-11-22T02:12:20Z] [INFO] [admin] Protected core network services untouched: Dhcp=Running/Automatic, NlaSvc=Stopped/Manual.
+[2026-11-22T02:12:21Z] [SKIP] [admin] TCP global rsc already 'disabled'.
+[2026-11-22T02:12:21Z] [SKIP] [admin] TCP global rss already 'enabled'.
+[2026-11-22T02:12:21Z] [SKIP] [admin] TCP global autotuninglevel already 'normal'.
+[2026-11-22T02:12:21Z] [SKIP] [admin] TCP global ecncapability already 'disabled'.
+[2026-11-22T02:12:21Z] [SKIP] [admin] TCP global timestamps already 'disabled'.
+[2026-11-22T02:12:21Z] [SKIP] [admin] TCP global nonsackrttresiliency already 'disabled'.
+[2026-11-22T02:12:21Z] [SKIP] [admin] Wi-Fi RSC already disabled (IPv4Enabled=False, IPv6Enabled=False).
+[2026-11-22T02:12:21Z] [SKIP] [admin] HKLM:\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Interfaces\{DC81AC1D-451F-40ED-90E3-150F8B550C51}\TcpAckFrequency already 1 (DWord).
+[2026-11-22T02:12:21Z] [SKIP] [admin] HKLM:\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Interfaces\{DC81AC1D-451F-40ED-90E3-150F8B550C51}\TCPNoDelay already 1 (DWord).
+[2026-11-22T02:12:21Z] [SKIP] [admin] HKLM:\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Interfaces\{1FDAF09D-6A12-453A-976C-E47B20E349A6}\TcpAckFrequency already 1 (DWord).
+[2026-11-22T02:12:21Z] [SKIP] [admin] HKLM:\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Interfaces\{1FDAF09D-6A12-453A-976C-E47B20E349A6}\TCPNoDelay already 1 (DWord).
+[2026-11-22T02:12:21Z] [SKIP] [admin] HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile\NetworkThrottlingIndex already -1 (DWord).
+[2026-11-22T02:12:21Z] [SKIP] [admin] HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile\SystemResponsiveness already 0 (DWord).
+[2026-11-22T02:12:21Z] [SKIP] [admin] QoS policy 'Fortnite_Gaming_QoS' preserved (DSCP=46, App=FortniteClient-Win64-Shipping.exe).
+[2026-11-22T02:12:21Z] [INFO] [admin] Baseline QoS policy 'FortnitePriorizacion' preserved (DSCP=46, App=FortniteClient-Win64-Shipping.exe).
+[2026-11-22T02:12:21Z] [INFO] [admin] Completed apply_network_admin.ps1 cleanly (DryRun=True).
+[2026-11-22T02:12:25Z] [INFO] [admin] Starting apply_network_admin.ps1 (IsAdmin=False, DryRun=False, SkipDnsBenchmark=False, DnsServers=[], BackupDir='C:\Users\Usuario\teamwork_projects\laptop_optimization\backups')
+[2026-11-22T02:12:25Z] [ERROR] [admin] Administrator privileges required for apply_network_admin.ps1. Re-run in an elevated PowerShell session, or pass -DryRun / -WhatIf for read-only inspection.
+[2026-11-22T02:20:24Z] [INFO] [user] Starting apply_network_user.ps1 (DryRun=False, ReportDir='C:\Users\Usuario\teamwork_projects\laptop_optimization\reports')
+[2026-11-22T02:20:24Z] [INFO] [user] --- F6/F13 User-Space: StartupApproved\Run P2P Cleanup ---
+[2026-11-22T02:20:24Z] [SKIP] [user] StartupApproved\Run\'Free Download Manager' already disabled (byte0=0x03, len=12, data=030000004DCE122D0E7ADD01).
+[2026-11-22T02:20:24Z] [SKIP] [user] StartupApproved\Run\'utweb' already disabled (byte0=0x03, len=12, data=03000000856A39CAF142DD01).
+[2026-11-22T02:20:24Z] [INFO] [user] Protected startup items untouched: FxSound, XMouseButtonControl, SecurityHealth, RtkAudUService, Zen Browser. No registry keys or values deleted.
+[2026-11-22T02:20:24Z] [INFO] [user] --- F13 User-Space: Stop Active P2P / Download Hog Processes ---
+[2026-11-22T02:20:24Z] [SKIP] [user] Process 'fdm' is not running.
+[2026-11-22T02:20:24Z] [SKIP] [user] Process 'utweb' is not running.
+[2026-11-22T02:20:24Z] [SKIP] [user] Process 'qbittorrent' is not running.
+[2026-11-22T02:20:24Z] [SKIP] [user] Process 'utorrent' is not running.
+[2026-11-22T02:20:24Z] [INFO] [user] --- F13 User-Space: Read-Only Advisory Status (Wi-Fi DNS & DoSvc) ---
+[2026-11-22T02:20:24Z] [INFO] [user] Advisory (read-only): Wi-Fi IPv4 DNS servers = [1.1.1.1, 1.0.0.1] (preserved; admin script handles optional override & benchmark).
+[2026-11-22T02:20:24Z] [INFO] [user] Advisory (read-only): DoSvc=Running/Automatic, Policy=<policy key absent> (HKLM mutations delegated to apply_network_admin.ps1).
+[2026-11-22T02:20:24Z] [INFO] [user] Completed apply_network_user.ps1 cleanly (DryRun=False).
+[2026-11-22T02:21:25Z] [INFO] [user] Starting apply_network_user.ps1 (DryRun=False, ReportDir='C:\Users\Usuario\teamwork_projects\laptop_optimization\reports')
+[2026-11-22T02:21:25Z] [INFO] [user] --- F6/F13 User-Space: StartupApproved\Run P2P Cleanup ---
+[2026-11-22T02:21:25Z] [SKIP] [user] StartupApproved\Run\'Free Download Manager' already disabled (byte0=0x03, len=12, data=030000004DCE122D0E7ADD01).
+[2026-11-22T02:21:25Z] [SKIP] [user] StartupApproved\Run\'utweb' already disabled (byte0=0x03, len=12, data=03000000856A39CAF142DD01).
+[2026-11-22T02:21:25Z] [INFO] [user] Protected startup items untouched: FxSound, XMouseButtonControl, SecurityHealth, RtkAudUService, Zen Browser. No registry keys or values deleted.
+[2026-11-22T02:21:25Z] [INFO] [user] --- F13 User-Space: Stop Active P2P / Download Hog Processes ---
+[2026-11-22T02:21:25Z] [SKIP] [user] Process 'fdm' is not running.
+[2026-11-22T02:21:25Z] [SKIP] [user] Process 'utweb' is not running.
+[2026-11-22T02:21:25Z] [SKIP] [user] Process 'qbittorrent' is not running.
+[2026-11-22T02:21:25Z] [SKIP] [user] Process 'utorrent' is not running.
+[2026-11-22T02:21:25Z] [INFO] [user] --- F13 User-Space: Read-Only Advisory Status (Wi-Fi DNS & DoSvc) ---
+[2026-11-22T02:21:25Z] [INFO] [user] Advisory (read-only): Wi-Fi IPv4 DNS servers = [1.1.1.1, 1.0.0.1] (preserved; admin script handles optional override & benchmark).
+[2026-11-22T02:21:25Z] [INFO] [user] Advisory (read-only): DoSvc=Running/Automatic, Policy=<policy key absent> (HKLM mutations delegated to apply_network_admin.ps1).
+[2026-11-22T02:21:25Z] [INFO] [user] Completed apply_network_user.ps1 cleanly (DryRun=False).
+[2026-11-22T03:49:37Z] [INFO] [admin] Starting apply_network_admin.ps1 (IsAdmin=False, DryRun=True, SkipDnsBenchmark=False, DnsServers=[], BackupDir='C:\Users\Usuario\teamwork_projects\laptop_optimization\backups')
+[2026-11-22T03:49:37Z] [DRY-RUN] [admin] No .pow exports found in 'C:\Users\Usuario\teamwork_projects\laptop_optimization\backups\power'; when elevated would run 'C:\Users\Usuario\teamwork_projects\laptop_optimization\scripts\backup_baseline.ps1 -BackupRoot "C:\Users\Usuario\teamwork_projects\laptop_optimization\backups" -IncludeElevated' (never -Force).
+[2026-11-22T03:49:38Z] [INFO] [admin] Resolved NICs: Wi-Fi Guid={DC81AC1D-451F-40ED-90E3-150F8B550C51} Class='HKLM:\SYSTEM\CurrentControlSet\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\0011'; Ethernet Guid={1FDAF09D-6A12-453A-976C-E47B20E349A6} Class='HKLM:\SYSTEM\CurrentControlSet\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\0002'.
+[2026-11-22T03:49:38Z] [INFO] [admin] --- F11: Wi-Fi Power-Saving, DC ASPM/Wireless & NIC Power ---
+[2026-11-22T03:49:38Z] [SKIP] [admin] Active power scheme is already 'Gaming Estable (Sin Bateria)' (46476e86-f770-4378-857e-3a25bf0336b4).
+[2026-11-22T03:49:38Z] [INFO] [admin] Power guardrails preserved (46476e86-f770-4378-857e-3a25bf0336b4): PROCTHROTTLEMAX AC=99% (never >99%), PERFBOOSTMODE AC=0 (never >0).
+[2026-11-22T03:49:38Z] [SKIP] [admin] Power setting 'Wireless Power Saving' AC already 0 on 46476e86-f770-4378-857e-3a25bf0336b4.
+[2026-11-22T03:49:38Z] [DRY-RUN] [admin] Would set 'Wireless Power Saving' DC from 2 to 0 on 46476e86-f770-4378-857e-3a25bf0336b4.
+[2026-11-22T03:49:38Z] [SKIP] [admin] Power setting 'PCIe ASPM' AC already 0 on 46476e86-f770-4378-857e-3a25bf0336b4.
+[2026-11-22T03:49:38Z] [DRY-RUN] [admin] Would set 'PCIe ASPM' DC from 2 to 0 on 46476e86-f770-4378-857e-3a25bf0336b4.
+[2026-11-22T03:49:38Z] [SKIP] [admin] NIC 'Wi-Fi' [LpsEn] already '0' (Low).
+[2026-11-22T03:49:39Z] [DRY-RUN] [admin] Would set HKLM:\SYSTEM\CurrentControlSet\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\0011\PnPCapabilities = 24 (DWord) (current: 16 (DWord)).
+[2026-11-22T03:49:39Z] [DRY-RUN] [admin] Would set MSPower_DeviceEnable.Enable = False for 'Wi-Fi' (PCI\VEN_10EC&DEV_8852&SUBSYS_485217AA&REV_00\00E04CFFFE88520100_0).
+[2026-11-22T03:49:39Z] [DRY-RUN] [admin] Would invoke Set-NetAdapterPowerManagement -Name 'Wi-Fi' -AllowComputerToTurnOffDevice Disabled -NoRestart (if supported by driver).
+[2026-11-22T03:49:39Z] [DRY-RUN] [admin] Would set HKLM:\SYSTEM\CurrentControlSet\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\0002\PnPCapabilities = 24 (DWord) (current: <missing>).
+[2026-11-22T03:49:39Z] [DRY-RUN] [admin] Would set MSPower_DeviceEnable.Enable = False for 'Ethernet' (PCI\VEN_10EC&DEV_8168&SUBSYS_390917AA&REV_15\01000000684CE00000_0).
+[2026-11-22T03:49:39Z] [DRY-RUN] [admin] Would invoke Set-NetAdapterPowerManagement -Name 'Ethernet' -AllowComputerToTurnOffDevice Disabled -NoRestart (if supported by driver).
+[2026-11-22T03:49:39Z] [INFO] [admin] --- F12: Wi-Fi Roaming Lock & 2.4 GHz Guard ---
+[2026-11-22T03:49:39Z] [DRY-RUN] [admin] Would set NIC 'Wi-Fi' [RegROAMSensitiveLevel] from '80' (Low) to '127' (Deshabilitar roaming).
+[2026-11-22T03:49:39Z] [SKIP] [admin] NIC 'Wi-Fi' [PreferBand] already '2' (3. 5G first).
+[2026-11-22T03:49:39Z] [DRY-RUN] [admin] Would run: netsh wlan set profileparameter name="CLARO1_F3E3B9" connectionmode=manual (2.4 GHz fallback guard).
+[2026-11-22T03:49:39Z] [SKIP] [admin] WLAN profile 'CLARO2_F3E3B9' (5 GHz primary) already connectionmode=auto.
+[2026-11-22T03:49:39Z] [SKIP] [admin] Verified gaming_wlan_scan_toggle.ps1 present; steady-state WLAN autoconfig=True, WlanSvc=Running.
+[2026-11-22T03:49:39Z] [INFO] [admin] Per-session WLAN scan toggle: before gaming run 'pwsh -NoProfile -File scripts\gaming_wlan_scan_toggle.ps1 -Mode gaming'; after gaming run '... -Mode restore'.
+[2026-11-22T03:49:39Z] [INFO] [admin] --- F13: DoSvc Policy, NetworkDaemon & DNS Preservation ---
+[2026-11-22T03:49:39Z] [DRY-RUN] [admin] Would create key 'HKLM:\SOFTWARE\Policies\Microsoft\Windows\DeliveryOptimization' and set 'DODownloadMode' = 0 (DWord) (current: <key missing>).
+[2026-11-22T03:49:39Z] [DRY-RUN] [admin] Would create key 'HKLM:\SOFTWARE\Policies\Microsoft\Windows\DeliveryOptimization' and set 'DOPercentageMaxBackgroundBandwidth' = 25 (DWord) (current: <key missing>).
+[2026-11-22T03:49:39Z] [DRY-RUN] [admin] Would stop and disable service 'NetworkDaemon' (Status=Stopped, Start=2).
+[2026-11-22T03:49:40Z] [SKIP] [admin] Preserving existing Wi-Fi IPv4 DNS [1.1.1.1, 1.0.0.1] untouched (-DnsServers not specified; user guardrail active).
+[2026-11-22T03:49:42Z] [INFO] [admin] Advisory DNS/ICMP benchmark (read-only): 1.1.1.1: ICMP=92.88ms / DNS=97.82ms; 9.9.9.9: ICMP=93.32ms / DNS=92.15ms; 8.8.8.8: ICMP=34.93ms / DNS=71.03ms. To switch DNS explicitly, pass -DnsServers "9.9.9.9,8.8.8.8".
+[2026-11-22T03:49:42Z] [INFO] [admin] --- F14: Ethernet Standby, TCP Stack & Offload Preservation ---
+[2026-11-22T03:49:42Z] [DRY-RUN] [admin] Would set NIC 'Ethernet' [EnableGreenEthernet] from '1' (Activado) to '0' (Ethernet ecologico).
+[2026-11-22T03:49:42Z] [DRY-RUN] [admin] Would set NIC 'Ethernet' [PowerSavingMode] from '1' (Activado) to '0' (Power Saving Mode).
+[2026-11-22T03:49:42Z] [DRY-RUN] [admin] Would set NIC 'Ethernet' [GigaLite] from '1' (Activado) to '0' (Gigabit Lite).
+[2026-11-22T03:49:42Z] [DRY-RUN] [admin] Would set NIC 'Ethernet' [*InterruptModeration] from '1' (Enabled) to '0' (Interrupt Moderation).
+[2026-11-22T03:49:42Z] [DRY-RUN] [admin] Would set NIC 'Ethernet' [*FlowControl] from '3' (Rx y Tx activado) to '0' (Flow Control).
+[2026-11-22T03:49:42Z] [INFO] [admin] Verified Ethernet checksum offloads preserved (target '3'): *IPChecksumOffloadIPv4=3, *TCPChecksumOffloadIPv4=3, *TCPChecksumOffloadIPv6=3, *UDPChecksumOffloadIPv4=3, *UDPChecksumOffloadIPv6=3.
+[2026-11-22T03:49:42Z] [INFO] [admin] Protected core network services untouched: Dhcp=Running/Automatic, NlaSvc=Stopped/Manual.
+[2026-11-22T03:49:42Z] [SKIP] [admin] TCP global rsc already 'disabled'.
+[2026-11-22T03:49:42Z] [SKIP] [admin] TCP global rss already 'enabled'.
+[2026-11-22T03:49:42Z] [SKIP] [admin] TCP global autotuninglevel already 'normal'.
+[2026-11-22T03:49:42Z] [SKIP] [admin] TCP global ecncapability already 'disabled'.
+[2026-11-22T03:49:42Z] [SKIP] [admin] TCP global timestamps already 'disabled'.
+[2026-11-22T03:49:42Z] [SKIP] [admin] TCP global nonsackrttresiliency already 'disabled'.
+[2026-11-22T03:49:42Z] [SKIP] [admin] Wi-Fi RSC already disabled (IPv4Enabled=False, IPv6Enabled=False).
+[2026-11-22T03:49:42Z] [SKIP] [admin] HKLM:\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Interfaces\{DC81AC1D-451F-40ED-90E3-150F8B550C51}\TcpAckFrequency already 1 (DWord).
+[2026-11-22T03:49:42Z] [SKIP] [admin] HKLM:\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Interfaces\{DC81AC1D-451F-40ED-90E3-150F8B550C51}\TCPNoDelay already 1 (DWord).
+[2026-11-22T03:49:42Z] [SKIP] [admin] HKLM:\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Interfaces\{1FDAF09D-6A12-453A-976C-E47B20E349A6}\TcpAckFrequency already 1 (DWord).
+[2026-11-22T03:49:42Z] [SKIP] [admin] HKLM:\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Interfaces\{1FDAF09D-6A12-453A-976C-E47B20E349A6}\TCPNoDelay already 1 (DWord).
+[2026-11-22T03:49:42Z] [SKIP] [admin] HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile\NetworkThrottlingIndex already -1 (DWord).
+[2026-11-22T03:49:42Z] [SKIP] [admin] HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile\SystemResponsiveness already 0 (DWord).
+[2026-11-22T03:49:43Z] [SKIP] [admin] QoS policy 'Fortnite_Gaming_QoS' preserved (DSCP=46, App=FortniteClient-Win64-Shipping.exe).
+[2026-11-22T03:49:43Z] [INFO] [admin] Baseline QoS policy 'FortnitePriorizacion' preserved (DSCP=46, App=FortniteClient-Win64-Shipping.exe).
+[2026-11-22T03:49:43Z] [INFO] [admin] Completed apply_network_admin.ps1 cleanly (DryRun=True).
+[2026-11-22T03:49:46Z] [INFO] [admin] Starting apply_network_admin.ps1 (IsAdmin=False, DryRun=True, SkipDnsBenchmark=False, DnsServers=[], BackupDir='C:\Users\Usuario\teamwork_projects\laptop_optimization\backups')
+[2026-11-22T03:49:46Z] [DRY-RUN] [admin] No .pow exports found in 'C:\Users\Usuario\teamwork_projects\laptop_optimization\backups\power'; when elevated would run 'C:\Users\Usuario\teamwork_projects\laptop_optimization\scripts\backup_baseline.ps1 -BackupRoot "C:\Users\Usuario\teamwork_projects\laptop_optimization\backups" -IncludeElevated' (never -Force).
+[2026-11-22T03:49:47Z] [INFO] [admin] Resolved NICs: Wi-Fi Guid={DC81AC1D-451F-40ED-90E3-150F8B550C51} Class='HKLM:\SYSTEM\CurrentControlSet\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\0011'; Ethernet Guid={1FDAF09D-6A12-453A-976C-E47B20E349A6} Class='HKLM:\SYSTEM\CurrentControlSet\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\0002'.
+[2026-11-22T03:49:47Z] [INFO] [admin] --- F11: Wi-Fi Power-Saving, DC ASPM/Wireless & NIC Power ---
+[2026-11-22T03:49:47Z] [SKIP] [admin] Active power scheme is already 'Gaming Estable (Sin Bateria)' (46476e86-f770-4378-857e-3a25bf0336b4).
+[2026-11-22T03:49:47Z] [INFO] [admin] Power guardrails preserved (46476e86-f770-4378-857e-3a25bf0336b4): PROCTHROTTLEMAX AC=99% (never >99%), PERFBOOSTMODE AC=0 (never >0).
+[2026-11-22T03:49:47Z] [SKIP] [admin] Power setting 'Wireless Power Saving' AC already 0 on 46476e86-f770-4378-857e-3a25bf0336b4.
+[2026-11-22T03:49:47Z] [DRY-RUN] [admin] Would set 'Wireless Power Saving' DC from 2 to 0 on 46476e86-f770-4378-857e-3a25bf0336b4.
+[2026-11-22T03:49:47Z] [SKIP] [admin] Power setting 'PCIe ASPM' AC already 0 on 46476e86-f770-4378-857e-3a25bf0336b4.
+[2026-11-22T03:49:47Z] [DRY-RUN] [admin] Would set 'PCIe ASPM' DC from 2 to 0 on 46476e86-f770-4378-857e-3a25bf0336b4.
+[2026-11-22T03:49:47Z] [SKIP] [admin] NIC 'Wi-Fi' [LpsEn] already '0' (Low).
+[2026-11-22T03:49:47Z] [DRY-RUN] [admin] Would set HKLM:\SYSTEM\CurrentControlSet\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\0011\PnPCapabilities = 24 (DWord) (current: 16 (DWord)).
+[2026-11-22T03:49:47Z] [DRY-RUN] [admin] Would set MSPower_DeviceEnable.Enable = False for 'Wi-Fi' (PCI\VEN_10EC&DEV_8852&SUBSYS_485217AA&REV_00\00E04CFFFE88520100_0).
+[2026-11-22T03:49:47Z] [DRY-RUN] [admin] Would invoke Set-NetAdapterPowerManagement -Name 'Wi-Fi' -AllowComputerToTurnOffDevice Disabled -NoRestart (if supported by driver).
+[2026-11-22T03:49:47Z] [DRY-RUN] [admin] Would set HKLM:\SYSTEM\CurrentControlSet\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\0002\PnPCapabilities = 24 (DWord) (current: <missing>).
+[2026-11-22T03:49:47Z] [DRY-RUN] [admin] Would set MSPower_DeviceEnable.Enable = False for 'Ethernet' (PCI\VEN_10EC&DEV_8168&SUBSYS_390917AA&REV_15\01000000684CE00000_0).
+[2026-11-22T03:49:47Z] [DRY-RUN] [admin] Would invoke Set-NetAdapterPowerManagement -Name 'Ethernet' -AllowComputerToTurnOffDevice Disabled -NoRestart (if supported by driver).
+[2026-11-22T03:49:47Z] [INFO] [admin] --- F12: Wi-Fi Roaming Lock & 2.4 GHz Guard ---
+[2026-11-22T03:49:47Z] [DRY-RUN] [admin] Would set NIC 'Wi-Fi' [RegROAMSensitiveLevel] from '80' (Low) to '127' (Deshabilitar roaming).
+[2026-11-22T03:49:48Z] [SKIP] [admin] NIC 'Wi-Fi' [PreferBand] already '2' (3. 5G first).
+[2026-11-22T03:49:48Z] [DRY-RUN] [admin] Would run: netsh wlan set profileparameter name="CLARO1_F3E3B9" connectionmode=manual (2.4 GHz fallback guard).
+[2026-11-22T03:49:48Z] [SKIP] [admin] WLAN profile 'CLARO2_F3E3B9' (5 GHz primary) already connectionmode=auto.
+[2026-11-22T03:49:48Z] [SKIP] [admin] Verified gaming_wlan_scan_toggle.ps1 present; steady-state WLAN autoconfig=True, WlanSvc=Running.
+[2026-11-22T03:49:48Z] [INFO] [admin] Per-session WLAN scan toggle: before gaming run 'pwsh -NoProfile -File scripts\gaming_wlan_scan_toggle.ps1 -Mode gaming'; after gaming run '... -Mode restore'.
+[2026-11-22T03:49:48Z] [INFO] [admin] --- F13: DoSvc Policy, NetworkDaemon & DNS Preservation ---
+[2026-11-22T03:49:48Z] [DRY-RUN] [admin] Would create key 'HKLM:\SOFTWARE\Policies\Microsoft\Windows\DeliveryOptimization' and set 'DODownloadMode' = 0 (DWord) (current: <key missing>).
+[2026-11-22T03:49:48Z] [DRY-RUN] [admin] Would create key 'HKLM:\SOFTWARE\Policies\Microsoft\Windows\DeliveryOptimization' and set 'DOPercentageMaxBackgroundBandwidth' = 25 (DWord) (current: <key missing>).
+[2026-11-22T03:49:48Z] [DRY-RUN] [admin] Would stop and disable service 'NetworkDaemon' (Status=Stopped, Start=2).
+[2026-11-22T03:49:49Z] [SKIP] [admin] Preserving existing Wi-Fi IPv4 DNS [1.1.1.1, 1.0.0.1] untouched (-DnsServers not specified; user guardrail active).
+[2026-11-22T03:49:51Z] [INFO] [admin] Advisory DNS/ICMP benchmark (read-only): 1.1.1.1: ICMP=93.82ms / DNS=97.37ms; 9.9.9.9: ICMP=92.72ms / DNS=94.31ms; 8.8.8.8: ICMP=35.97ms / DNS=59.41ms. To switch DNS explicitly, pass -DnsServers "9.9.9.9,8.8.8.8".
+[2026-11-22T03:49:51Z] [INFO] [admin] --- F14: Ethernet Standby, TCP Stack & Offload Preservation ---
+[2026-11-22T03:49:51Z] [DRY-RUN] [admin] Would set NIC 'Ethernet' [EnableGreenEthernet] from '1' (Activado) to '0' (Ethernet ecologico).
+[2026-11-22T03:49:51Z] [DRY-RUN] [admin] Would set NIC 'Ethernet' [PowerSavingMode] from '1' (Activado) to '0' (Power Saving Mode).
+[2026-11-22T03:49:51Z] [DRY-RUN] [admin] Would set NIC 'Ethernet' [GigaLite] from '1' (Activado) to '0' (Gigabit Lite).
+[2026-11-22T03:49:51Z] [DRY-RUN] [admin] Would set NIC 'Ethernet' [*InterruptModeration] from '1' (Enabled) to '0' (Interrupt Moderation).
+[2026-11-22T03:49:51Z] [DRY-RUN] [admin] Would set NIC 'Ethernet' [*FlowControl] from '3' (Rx y Tx activado) to '0' (Flow Control).
+[2026-11-22T03:49:51Z] [INFO] [admin] Verified Ethernet checksum offloads preserved (target '3'): *IPChecksumOffloadIPv4=3, *TCPChecksumOffloadIPv4=3, *TCPChecksumOffloadIPv6=3, *UDPChecksumOffloadIPv4=3, *UDPChecksumOffloadIPv6=3.
+[2026-11-22T03:49:51Z] [INFO] [admin] Protected core network services untouched: Dhcp=Running/Automatic, NlaSvc=Stopped/Manual.
+[2026-11-22T03:49:51Z] [SKIP] [admin] TCP global rsc already 'disabled'.
+[2026-11-22T03:49:51Z] [SKIP] [admin] TCP global rss already 'enabled'.
+[2026-11-22T03:49:51Z] [SKIP] [admin] TCP global autotuninglevel already 'normal'.
+[2026-11-22T03:49:51Z] [SKIP] [admin] TCP global ecncapability already 'disabled'.
+[2026-11-22T03:49:51Z] [SKIP] [admin] TCP global timestamps already 'disabled'.
+[2026-11-22T03:49:51Z] [SKIP] [admin] TCP global nonsackrttresiliency already 'disabled'.
+[2026-11-22T03:49:51Z] [SKIP] [admin] Wi-Fi RSC already disabled (IPv4Enabled=False, IPv6Enabled=False).
+[2026-11-22T03:49:51Z] [SKIP] [admin] HKLM:\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Interfaces\{DC81AC1D-451F-40ED-90E3-150F8B550C51}\TcpAckFrequency already 1 (DWord).
+[2026-11-22T03:49:51Z] [SKIP] [admin] HKLM:\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Interfaces\{DC81AC1D-451F-40ED-90E3-150F8B550C51}\TCPNoDelay already 1 (DWord).
+[2026-11-22T03:49:51Z] [SKIP] [admin] HKLM:\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Interfaces\{1FDAF09D-6A12-453A-976C-E47B20E349A6}\TcpAckFrequency already 1 (DWord).
+[2026-11-22T03:49:51Z] [SKIP] [admin] HKLM:\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Interfaces\{1FDAF09D-6A12-453A-976C-E47B20E349A6}\TCPNoDelay already 1 (DWord).
+[2026-11-22T03:49:51Z] [SKIP] [admin] HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile\NetworkThrottlingIndex already -1 (DWord).
+[2026-11-22T03:49:51Z] [SKIP] [admin] HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile\SystemResponsiveness already 0 (DWord).
+[2026-11-22T03:49:52Z] [SKIP] [admin] QoS policy 'Fortnite_Gaming_QoS' preserved (DSCP=46, App=FortniteClient-Win64-Shipping.exe).
+[2026-11-22T03:49:52Z] [INFO] [admin] Baseline QoS policy 'FortnitePriorizacion' preserved (DSCP=46, App=FortniteClient-Win64-Shipping.exe).
+[2026-11-22T03:49:52Z] [INFO] [admin] Completed apply_network_admin.ps1 cleanly (DryRun=True).
+[2026-11-22T04:37:43Z] [INFO] [admin] Starting apply_network_admin.ps1 (IsAdmin=True, DryRun=False, SkipDnsBenchmark=False, DnsServers=[], BackupDir='C:\Users\Usuario\teamwork_projects\laptop_optimization\backups')
+[2026-11-22T04:37:43Z] [SKIP] [admin] Pre-mutation elevated backup already present (4 .pow files in 'C:\Users\Usuario\teamwork_projects\laptop_optimization\backups\power').
+[2026-11-22T04:37:44Z] [INFO] [admin] Resolved NICs: Wi-Fi Guid={DC81AC1D-451F-40ED-90E3-150F8B550C51} Class='HKLM:\SYSTEM\CurrentControlSet\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\0011'; Ethernet Guid={1FDAF09D-6A12-453A-976C-E47B20E349A6} Class='HKLM:\SYSTEM\CurrentControlSet\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\0002'.
+[2026-11-22T04:37:44Z] [INFO] [admin] --- F11: Wi-Fi Power-Saving, DC ASPM/Wireless & NIC Power ---
+[2026-11-22T04:37:44Z] [SKIP] [admin] Active power scheme is already 'Gaming Estable (Sin Bateria)' (46476e86-f770-4378-857e-3a25bf0336b4).
+[2026-11-22T04:37:44Z] [INFO] [admin] Power guardrails preserved (46476e86-f770-4378-857e-3a25bf0336b4): PROCTHROTTLEMAX AC=99% (never >99%), PERFBOOSTMODE AC=0 (never >0).
+[2026-11-22T04:37:44Z] [SKIP] [admin] Power setting 'Wireless Power Saving' AC already 0 on 46476e86-f770-4378-857e-3a25bf0336b4.
+[2026-11-22T04:37:44Z] [APPLIED] [admin] Set 'Wireless Power Saving' DC from 2 to 0 on 46476e86-f770-4378-857e-3a25bf0336b4.
+[2026-11-22T04:37:44Z] [SKIP] [admin] Power setting 'PCIe ASPM' AC already 0 on 46476e86-f770-4378-857e-3a25bf0336b4.
+[2026-11-22T04:37:44Z] [APPLIED] [admin] Set 'PCIe ASPM' DC from 2 to 0 on 46476e86-f770-4378-857e-3a25bf0336b4.
+[2026-11-22T04:37:44Z] [APPLIED] [admin] Re-activated power scheme 46476e86-f770-4378-857e-3a25bf0336b4 to commit AC/DC power changes.
+[2026-11-22T04:37:44Z] [SKIP] [admin] NIC 'Wi-Fi' [LpsEn] already '0' (Low).
+[2026-11-22T04:37:44Z] [APPLIED] [admin] Set HKLM:\SYSTEM\CurrentControlSet\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\0011\PnPCapabilities = 24 (DWord) (previous: 16 (DWord)).
+[2026-11-22T04:37:44Z] [APPLIED] [admin] Set MSPower_DeviceEnable.Enable = False for 'Wi-Fi'.
+[2026-11-22T04:37:44Z] [SKIP] [admin] NetAdapterPowerManagement AllowComputerToTurnOffDevice already Disabled for 'Wi-Fi'.
+[2026-11-22T04:37:44Z] [APPLIED] [admin] Set HKLM:\SYSTEM\CurrentControlSet\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\0002\PnPCapabilities = 24 (DWord) (previous: <missing>).
+[2026-11-22T04:37:44Z] [APPLIED] [admin] Set MSPower_DeviceEnable.Enable = False for 'Ethernet'.
+[2026-11-22T04:37:44Z] [SKIP] [admin] NetAdapterPowerManagement AllowComputerToTurnOffDevice already Disabled for 'Ethernet'.
+[2026-11-22T04:37:44Z] [INFO] [admin] --- F12: Wi-Fi Roaming Lock & 2.4 GHz Guard ---
+[2026-11-22T04:37:45Z] [APPLIED] [admin] Set NIC 'Wi-Fi' [RegROAMSensitiveLevel] = '127' (Deshabilitar roaming) (previous: '80').
+[2026-11-22T04:37:45Z] [SKIP] [admin] NIC 'Wi-Fi' [PreferBand] already '2' (3. 5G first).
+[2026-11-22T04:37:45Z] [APPLIED] [admin] Set WLAN profile 'CLARO1_F3E3B9' (2.4 GHz fallback guard) connectionmode=manual.
+[2026-11-22T04:37:45Z] [SKIP] [admin] WLAN profile 'CLARO2_F3E3B9' (5 GHz primary) already connectionmode=auto.
+[2026-11-22T04:37:45Z] [SKIP] [admin] Verified gaming_wlan_scan_toggle.ps1 present; steady-state WLAN autoconfig=True, WlanSvc=Running.
+[2026-11-22T04:37:45Z] [INFO] [admin] Per-session WLAN scan toggle: before gaming run 'pwsh -NoProfile -File scripts\gaming_wlan_scan_toggle.ps1 -Mode gaming'; after gaming run '... -Mode restore'.
+[2026-11-22T04:37:45Z] [INFO] [admin] --- F13: DoSvc Policy, NetworkDaemon & DNS Preservation ---
+[2026-11-22T04:37:45Z] [APPLIED] [admin] Set HKLM:\SOFTWARE\Policies\Microsoft\Windows\DeliveryOptimization\DODownloadMode = 0 (DWord) (previous: <key missing>).
+[2026-11-22T04:37:45Z] [APPLIED] [admin] Set HKLM:\SOFTWARE\Policies\Microsoft\Windows\DeliveryOptimization\DOPercentageMaxBackgroundBandwidth = 25 (DWord) (previous: <missing>).
+[2026-11-22T04:37:45Z] [SKIP] [admin] Service 'NetworkDaemon' already Stopped and Disabled (Start=4).
+[2026-11-22T04:37:46Z] [SKIP] [admin] Preserving existing Wi-Fi IPv4 DNS [1.1.1.1, 1.0.0.1] untouched (-DnsServers not specified; user guardrail active).
+[2026-11-22T04:37:49Z] [INFO] [admin] Advisory DNS/ICMP benchmark (read-only): 1.1.1.1: ICMP=298.45ms / DNS=103.26ms; 9.9.9.9: ICMP=92.43ms / DNS=93.25ms; 8.8.8.8: ICMP=37.41ms / DNS=62.88ms. To switch DNS explicitly, pass -DnsServers "9.9.9.9,8.8.8.8".
+[2026-11-22T04:37:49Z] [INFO] [admin] --- F14: Ethernet Standby, TCP Stack & Offload Preservation ---
+[2026-11-22T04:37:49Z] [APPLIED] [admin] Set NIC 'Ethernet' [EnableGreenEthernet] = '0' (Ethernet ecologico) (previous: '1').
+[2026-11-22T04:37:49Z] [APPLIED] [admin] Set NIC 'Ethernet' [PowerSavingMode] = '0' (Power Saving Mode) (previous: '1').
+[2026-11-22T04:37:50Z] [APPLIED] [admin] Set NIC 'Ethernet' [GigaLite] = '0' (Gigabit Lite) (previous: '1').
+[2026-11-22T04:37:50Z] [APPLIED] [admin] Set NIC 'Ethernet' [*InterruptModeration] = '0' (Interrupt Moderation) (previous: '1').
+[2026-11-22T04:37:50Z] [APPLIED] [admin] Set NIC 'Ethernet' [*FlowControl] = '0' (Flow Control) (previous: '3').
+[2026-11-22T04:37:50Z] [INFO] [admin] Verified Ethernet checksum offloads preserved (target '3'): *IPChecksumOffloadIPv4=3, *TCPChecksumOffloadIPv4=3, *TCPChecksumOffloadIPv6=3, *UDPChecksumOffloadIPv4=3, *UDPChecksumOffloadIPv6=3.
+[2026-11-22T04:37:50Z] [INFO] [admin] Protected core network services untouched: Dhcp=Running/Automatic, NlaSvc=Stopped/Manual.
+[2026-11-22T04:37:50Z] [SKIP] [admin] TCP global rsc already 'disabled'.
+[2026-11-22T04:37:50Z] [SKIP] [admin] TCP global rss already 'enabled'.
+[2026-11-22T04:37:50Z] [SKIP] [admin] TCP global autotuninglevel already 'normal'.
+[2026-11-22T04:37:50Z] [SKIP] [admin] TCP global ecncapability already 'disabled'.
+[2026-11-22T04:37:50Z] [SKIP] [admin] TCP global timestamps already 'disabled'.
+[2026-11-22T04:37:50Z] [SKIP] [admin] TCP global nonsackrttresiliency already 'disabled'.
+[2026-11-22T04:37:50Z] [SKIP] [admin] Wi-Fi RSC already disabled (IPv4Enabled=False, IPv6Enabled=False).
+[2026-11-22T04:37:50Z] [SKIP] [admin] HKLM:\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Interfaces\{DC81AC1D-451F-40ED-90E3-150F8B550C51}\TcpAckFrequency already 1 (DWord).
+[2026-11-22T04:37:50Z] [SKIP] [admin] HKLM:\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Interfaces\{DC81AC1D-451F-40ED-90E3-150F8B550C51}\TCPNoDelay already 1 (DWord).
+[2026-11-22T04:37:50Z] [SKIP] [admin] HKLM:\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Interfaces\{1FDAF09D-6A12-453A-976C-E47B20E349A6}\TcpAckFrequency already 1 (DWord).
+[2026-11-22T04:37:50Z] [SKIP] [admin] HKLM:\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Interfaces\{1FDAF09D-6A12-453A-976C-E47B20E349A6}\TCPNoDelay already 1 (DWord).
+[2026-11-22T04:37:50Z] [SKIP] [admin] HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile\NetworkThrottlingIndex already -1 (DWord).
+[2026-11-22T04:37:50Z] [SKIP] [admin] HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile\SystemResponsiveness already 0 (DWord).
+[2026-11-22T04:37:51Z] [SKIP] [admin] QoS policy 'Fortnite_Gaming_QoS' preserved (DSCP=46, App=FortniteClient-Win64-Shipping.exe).
+[2026-11-22T04:37:51Z] [INFO] [admin] Baseline QoS policy 'FortnitePriorizacion' preserved (DSCP=46, App=FortniteClient-Win64-Shipping.exe).
+[2026-11-22T04:37:51Z] [INFO] [admin] Completed apply_network_admin.ps1 cleanly (DryRun=False).
+[2026-11-22T05:11:58Z] [INFO] [user] Starting apply_network_user.ps1 (DryRun=False, ReportDir='C:\Users\Usuario\teamwork_projects\laptop_optimization\reports')
+[2026-11-22T05:11:58Z] [INFO] [user] --- F6/F13 User-Space: StartupApproved\Run P2P Cleanup ---
+[2026-11-22T05:11:58Z] [SKIP] [user] StartupApproved\Run\'Free Download Manager' already disabled (byte0=0x03, len=12, data=030000004DCE122D0E7ADD01).
+[2026-11-22T05:11:58Z] [SKIP] [user] StartupApproved\Run\'utweb' already disabled (byte0=0x03, len=12, data=03000000856A39CAF142DD01).
+[2026-11-22T05:11:58Z] [INFO] [user] Protected startup items untouched: FxSound, XMouseButtonControl, SecurityHealth, RtkAudUService, Zen Browser. No registry keys or values deleted.
+[2026-11-22T05:11:58Z] [INFO] [user] --- F13 User-Space: Stop Active P2P / Download Hog Processes ---
+[2026-11-22T05:11:58Z] [SKIP] [user] Process 'fdm' is not running.
+[2026-11-22T05:11:58Z] [SKIP] [user] Process 'utweb' is not running.
+[2026-11-22T05:11:58Z] [SKIP] [user] Process 'qbittorrent' is not running.
+[2026-11-22T05:11:58Z] [SKIP] [user] Process 'utorrent' is not running.
+[2026-11-22T05:11:58Z] [INFO] [user] --- F13 User-Space: Read-Only Advisory Status (Wi-Fi DNS & DoSvc) ---
+[2026-11-22T05:11:58Z] [INFO] [user] Advisory (read-only): Wi-Fi IPv4 DNS servers = [1.1.1.1, 1.0.0.1] (preserved; admin script handles optional override & benchmark).
+[2026-11-22T05:11:58Z] [INFO] [user] Advisory (read-only): DoSvc=Stopped/Manual, Policy=DODownloadMode=0 (HKLM mutations delegated to apply_network_admin.ps1).
+[2026-11-22T05:11:58Z] [INFO] [user] Completed apply_network_user.ps1 cleanly (DryRun=False).
+[2026-11-22T05:24:16Z] [INFO] [user] Starting apply_network_user.ps1 (DryRun=False, ReportDir='C:\Users\Usuario\teamwork_projects\laptop_optimization\reports')
+[2026-11-22T05:24:16Z] [INFO] [user] --- F6/F13 User-Space: StartupApproved\Run P2P Cleanup ---
+[2026-11-22T05:24:16Z] [SKIP] [user] StartupApproved\Run\'Free Download Manager' already disabled (byte0=0x03, len=12, data=030000004DCE122D0E7ADD01).
+[2026-11-22T05:24:16Z] [SKIP] [user] StartupApproved\Run\'utweb' already disabled (byte0=0x03, len=12, data=03000000856A39CAF142DD01).
+[2026-11-22T05:24:16Z] [INFO] [user] Protected startup items untouched: FxSound, XMouseButtonControl, SecurityHealth, RtkAudUService, Zen Browser. No registry keys or values deleted.
+[2026-11-22T05:24:16Z] [INFO] [user] --- F13 User-Space: Stop Active P2P / Download Hog Processes ---
+[2026-11-22T05:24:16Z] [SKIP] [user] Process 'fdm' is not running.
+[2026-11-22T05:24:16Z] [SKIP] [user] Process 'utweb' is not running.
+[2026-11-22T05:24:16Z] [SKIP] [user] Process 'qbittorrent' is not running.
+[2026-11-22T05:24:16Z] [SKIP] [user] Process 'utorrent' is not running.
+[2026-11-22T05:24:16Z] [INFO] [user] --- F13 User-Space: Read-Only Advisory Status (Wi-Fi DNS & DoSvc) ---
+[2026-11-22T05:24:18Z] [INFO] [user] Advisory (read-only): Wi-Fi IPv4 DNS servers = [1.1.1.1, 1.0.0.1] (preserved; admin script handles optional override & benchmark).
+[2026-11-22T05:24:18Z] [INFO] [user] Advisory (read-only): DoSvc=Stopped/Manual, Policy=DODownloadMode=0 (HKLM mutations delegated to apply_network_admin.ps1).
+[2026-11-22T05:24:18Z] [INFO] [user] Completed apply_network_user.ps1 cleanly (DryRun=False).
+[2026-11-24T01:58:13Z] [INFO] [user] Starting apply_network_user.ps1 (DryRun=False, ReportDir='C:\Users\Usuario\teamwork_projects\laptop_optimization\reports')
+[2026-11-24T01:58:13Z] [INFO] [user] --- F6/F13 User-Space: StartupApproved\Run P2P Cleanup ---
+[2026-11-24T01:58:13Z] [SKIP] [user] StartupApproved\Run\'Free Download Manager' already disabled (byte0=0x03, len=12, data=030000004DCE122D0E7ADD01).
+[2026-11-24T01:58:13Z] [SKIP] [user] StartupApproved\Run\'utweb' already disabled (byte0=0x03, len=12, data=03000000856A39CAF142DD01).
+[2026-11-24T01:58:13Z] [INFO] [user] Protected startup items untouched: FxSound, XMouseButtonControl, SecurityHealth, RtkAudUService, Zen Browser. No registry keys or values deleted.
+[2026-11-24T01:58:13Z] [INFO] [user] --- F13 User-Space: Stop Active P2P / Download Hog Processes ---
+[2026-11-24T01:58:13Z] [SKIP] [user] Process 'fdm' is not running.
+[2026-11-24T01:58:13Z] [SKIP] [user] Process 'utweb' is not running.
+[2026-11-24T01:58:13Z] [SKIP] [user] Process 'qbittorrent' is not running.
+[2026-11-24T01:58:13Z] [SKIP] [user] Process 'utorrent' is not running.
+[2026-11-24T01:58:13Z] [INFO] [user] --- F13 User-Space: Read-Only Advisory Status (Wi-Fi DNS & DoSvc) ---
+[2026-11-24T01:58:14Z] [INFO] [user] Advisory (read-only): Wi-Fi IPv4 DNS servers = [1.1.1.1, 1.0.0.1] (preserved; admin script handles optional override & benchmark).
+[2026-11-24T01:58:14Z] [INFO] [user] Advisory (read-only): DoSvc=Running/Manual, Policy=DODownloadMode=0 (HKLM mutations delegated to apply_network_admin.ps1).
+[2026-11-24T01:58:14Z] [INFO] [user] Completed apply_network_user.ps1 cleanly (DryRun=False).
+[2026-11-24T02:48:04Z] [INFO] [user] Starting apply_network_user.ps1 (DryRun=False, ReportDir='C:\Users\Usuario\teamwork_projects\laptop_optimization\reports')
+[2026-11-24T02:48:04Z] [INFO] [user] --- F6/F13 User-Space: StartupApproved\Run P2P Cleanup ---
+[2026-11-24T02:48:04Z] [SKIP] [user] StartupApproved\Run\'Free Download Manager' already disabled (byte0=0x03, len=12, data=030000004DCE122D0E7ADD01).
+[2026-11-24T02:48:04Z] [SKIP] [user] StartupApproved\Run\'utweb' already disabled (byte0=0x03, len=12, data=03000000856A39CAF142DD01).
+[2026-11-24T02:48:04Z] [INFO] [user] Protected startup items untouched: FxSound, XMouseButtonControl, SecurityHealth, RtkAudUService, Zen Browser. No registry keys or values deleted.
+[2026-11-24T02:48:04Z] [INFO] [user] --- F13 User-Space: Stop Active P2P / Download Hog Processes ---
+[2026-11-24T02:48:04Z] [SKIP] [user] Process 'fdm' is not running.
+[2026-11-24T02:48:04Z] [SKIP] [user] Process 'utweb' is not running.
+[2026-11-24T02:48:04Z] [SKIP] [user] Process 'qbittorrent' is not running.
+[2026-11-24T02:48:04Z] [SKIP] [user] Process 'utorrent' is not running.
+[2026-11-24T02:48:04Z] [INFO] [user] --- F13 User-Space: Read-Only Advisory Status (Wi-Fi DNS & DoSvc) ---
+[2026-11-24T02:48:05Z] [INFO] [user] Advisory (read-only): Wi-Fi IPv4 DNS servers = [1.1.1.1, 1.0.0.1] (preserved; admin script handles optional override & benchmark).
+[2026-11-24T02:48:05Z] [INFO] [user] Advisory (read-only): DoSvc=Stopped/Manual, Policy=DODownloadMode=0 (HKLM mutations delegated to apply_network_admin.ps1).
+[2026-11-24T02:48:05Z] [INFO] [user] Completed apply_network_user.ps1 cleanly (DryRun=False).
+[2026-11-24T19:05:21Z] [INFO] [user] Starting apply_network_user.ps1 (DryRun=False, ReportDir='C:\Users\Usuario\teamwork_projects\laptop_optimization\reports')
+[2026-11-24T19:05:21Z] [INFO] [user] --- F6/F13 User-Space: StartupApproved\Run P2P Cleanup ---
+[2026-11-24T19:05:21Z] [SKIP] [user] StartupApproved\Run\'Free Download Manager' already disabled (byte0=0x03, len=12, data=030000004DCE122D0E7ADD01).
+[2026-11-24T19:05:21Z] [SKIP] [user] StartupApproved\Run\'utweb' already disabled (byte0=0x03, len=12, data=03000000856A39CAF142DD01).
+[2026-11-24T19:05:21Z] [INFO] [user] Protected startup items untouched: FxSound, XMouseButtonControl, SecurityHealth, RtkAudUService, Zen Browser. No registry keys or values deleted.
+[2026-11-24T19:05:21Z] [INFO] [user] --- F13 User-Space: Stop Active P2P / Download Hog Processes ---
+[2026-11-24T19:05:21Z] [SKIP] [user] Process 'fdm' is not running.
+[2026-11-24T19:05:21Z] [SKIP] [user] Process 'utweb' is not running.
+[2026-11-24T19:05:21Z] [SKIP] [user] Process 'qbittorrent' is not running.
+[2026-11-24T19:05:21Z] [SKIP] [user] Process 'utorrent' is not running.
+[2026-11-24T19:05:21Z] [INFO] [user] --- F13 User-Space: Read-Only Advisory Status (Wi-Fi DNS & DoSvc) ---
+[2026-11-24T19:05:22Z] [INFO] [user] Advisory (read-only): Wi-Fi IPv4 DNS servers = [1.1.1.1, 1.0.0.1] (preserved; admin script handles optional override & benchmark).
+[2026-11-24T19:05:22Z] [INFO] [user] Advisory (read-only): DoSvc=Stopped/Manual, Policy=DODownloadMode=0 (HKLM mutations delegated to apply_network_admin.ps1).
+[2026-11-24T19:05:22Z] [INFO] [user] Completed apply_network_user.ps1 cleanly (DryRun=False).
+[2026-11-25T13:14:48Z] [INFO] [user] Starting apply_network_user.ps1 (DryRun=False, ReportDir='C:\Users\Usuario\teamwork_projects\laptop_optimization\reports')
+[2026-11-25T13:14:48Z] [INFO] [user] --- F6/F13 User-Space: StartupApproved\Run P2P Cleanup ---
+[2026-11-25T13:14:48Z] [SKIP] [user] StartupApproved\Run\'Free Download Manager' already disabled (byte0=0x03, len=12, data=030000004DCE122D0E7ADD01).
+[2026-11-25T13:14:48Z] [SKIP] [user] StartupApproved\Run\'utweb' already disabled (byte0=0x03, len=12, data=03000000856A39CAF142DD01).
+[2026-11-25T13:14:48Z] [INFO] [user] Protected startup items untouched: FxSound, XMouseButtonControl, SecurityHealth, RtkAudUService, Zen Browser. No registry keys or values deleted.
+[2026-11-25T13:14:48Z] [INFO] [user] --- F13 User-Space: Stop Active P2P / Download Hog Processes ---
+[2026-11-25T13:14:48Z] [SKIP] [user] Process 'fdm' is not running.
+[2026-11-25T13:14:48Z] [SKIP] [user] Process 'utweb' is not running.
+[2026-11-25T13:14:48Z] [SKIP] [user] Process 'qbittorrent' is not running.
+[2026-11-25T13:14:48Z] [SKIP] [user] Process 'utorrent' is not running.
+[2026-11-25T13:14:48Z] [INFO] [user] --- F13 User-Space: Read-Only Advisory Status (Wi-Fi DNS & DoSvc) ---
+[2026-11-25T13:14:48Z] [INFO] [user] Advisory (read-only): Wi-Fi IPv4 DNS servers = [1.1.1.1, 1.0.0.1] (preserved; admin script handles optional override & benchmark).
+[2026-11-25T13:14:48Z] [INFO] [user] Advisory (read-only): DoSvc=Stopped/Manual, Policy=DODownloadMode=0 (HKLM mutations delegated to apply_network_admin.ps1).
+[2026-11-25T13:14:48Z] [INFO] [user] Completed apply_network_user.ps1 cleanly (DryRun=False).
+[2026-11-25T13:54:56Z] [INFO] [user] Starting apply_network_user.ps1 (DryRun=False, ReportDir='C:\Users\Usuario\teamwork_projects\laptop_optimization\reports')
+[2026-11-25T13:54:56Z] [INFO] [user] --- F6/F13 User-Space: StartupApproved\Run P2P Cleanup ---
+[2026-11-25T13:54:56Z] [SKIP] [user] StartupApproved\Run\'Free Download Manager' already disabled (byte0=0x03, len=12, data=030000004DCE122D0E7ADD01).
+[2026-11-25T13:54:56Z] [SKIP] [user] StartupApproved\Run\'utweb' already disabled (byte0=0x03, len=12, data=03000000856A39CAF142DD01).
+[2026-11-25T13:54:56Z] [INFO] [user] Protected startup items untouched: FxSound, XMouseButtonControl, SecurityHealth, RtkAudUService, Zen Browser. No registry keys or values deleted.
+[2026-11-25T13:54:56Z] [INFO] [user] --- F13 User-Space: Stop Active P2P / Download Hog Processes ---
+[2026-11-25T13:54:56Z] [SKIP] [user] Process 'fdm' is not running.
+[2026-11-25T13:54:56Z] [SKIP] [user] Process 'utweb' is not running.
+[2026-11-25T13:54:56Z] [SKIP] [user] Process 'qbittorrent' is not running.
+[2026-11-25T13:54:56Z] [SKIP] [user] Process 'utorrent' is not running.
+[2026-11-25T13:54:56Z] [INFO] [user] --- F13 User-Space: Read-Only Advisory Status (Wi-Fi DNS & DoSvc) ---
+[2026-11-25T13:54:56Z] [INFO] [user] Advisory (read-only): Wi-Fi IPv4 DNS servers = [1.1.1.1, 1.0.0.1] (preserved; admin script handles optional override & benchmark).
+[2026-11-25T13:54:56Z] [INFO] [user] Advisory (read-only): DoSvc=Stopped/Manual, Policy=DODownloadMode=0 (HKLM mutations delegated to apply_network_admin.ps1).
+[2026-11-25T13:54:56Z] [INFO] [user] Completed apply_network_user.ps1 cleanly (DryRun=False).

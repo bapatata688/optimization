@@ -1,0 +1,18 @@
+{
+  "timestamp_utc": "2026-11-22T04:37:16Z",
+  "is_admin": true,
+  "status": "exported",
+  "scheme_guids": [
+    "381b4222-f694-41f0-9685-ff5bb260df2e",
+    "46476e86-f770-4378-857e-3a25bf0336b4",
+    "8ac65e32-075f-48d5-828b-02e93ad3c1f8",
+    "bb7e893a-b185-4dfa-8895-72bd923714aa"
+  ],
+  "exported_pow": [
+    "C:\\Users\\Usuario\\teamwork_projects\\laptop_optimization\\backups\\power\\power_scheme_381b4222-f694-41f0-9685-ff5bb260df2e.pow",
+    "C:\\Users\\Usuario\\teamwork_projects\\laptop_optimization\\backups\\power\\power_scheme_46476e86-f770-4378-857e-3a25bf0336b4.pow",
+    "C:\\Users\\Usuario\\teamwork_projects\\laptop_optimization\\backups\\power\\power_scheme_8ac65e32-075f-48d5-828b-02e93ad3c1f8.pow",
+    "C:\\Users\\Usuario\\teamwork_projects\\laptop_optimization\\backups\\power\\power_scheme_bb7e893a-b185-4dfa-8895-72bd923714aa.pow"
+  ],
+  "errors": []
+}

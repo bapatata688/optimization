@@ -1,0 +1,55 @@
+[2026-11-21T17:00:49Z] [INFO] Starting rollback_all.ps1 (BackupDir='C:\Users\Usuario\teamwork_projects\laptop_optimization\backups', DryRun=True, SkipPowerSchemes=False, IsAdmin=False)
+[2026-11-21T17:00:49Z] [DRY-RUN] Would run: reg.exe import "C:\Users\Usuario\teamwork_projects\laptop_optimization\backups\system\hkcu_desktop.reg"
+[2026-11-21T17:00:49Z] [DRY-RUN] Would run: reg.exe import "C:\Users\Usuario\teamwork_projects\laptop_optimization\backups\system\hkcu_gamebar.reg"
+[2026-11-21T17:00:49Z] [DRY-RUN] Would run: reg.exe import "C:\Users\Usuario\teamwork_projects\laptop_optimization\backups\system\hkcu_gameconfigstore.reg"
+[2026-11-21T17:00:49Z] [DRY-RUN] Would run: reg.exe import "C:\Users\Usuario\teamwork_projects\laptop_optimization\backups\system\hkcu_gamedvr.reg"
+[2026-11-21T17:00:49Z] [DRY-RUN] Would run: reg.exe import "C:\Users\Usuario\teamwork_projects\laptop_optimization\backups\system\hkcu_personalize.reg"
+[2026-11-21T17:00:49Z] [DRY-RUN] Would run: reg.exe import "C:\Users\Usuario\teamwork_projects\laptop_optimization\backups\system\hkcu_run.reg"
+[2026-11-21T17:00:49Z] [DRY-RUN] Would run: reg.exe import "C:\Users\Usuario\teamwork_projects\laptop_optimization\backups\system\hkcu_startupapproved_run.reg"
+[2026-11-21T17:00:49Z] [DRY-RUN] Would run: reg.exe import "C:\Users\Usuario\teamwork_projects\laptop_optimization\backups\system\hkcu_startupapproved_startupfolder.reg"
+[2026-11-21T17:00:49Z] [DRY-RUN] Would run: reg.exe import "C:\Users\Usuario\teamwork_projects\laptop_optimization\backups\system\hkcu_usergpupreferences.reg"
+[2026-11-21T17:00:49Z] [DRY-RUN] Would run: reg.exe import "C:\Users\Usuario\teamwork_projects\laptop_optimization\backups\system\hkcu_visualeffects.reg"
+[2026-11-21T17:00:49Z] [DRY-RUN] Would run: reg.exe import "C:\Users\Usuario\teamwork_projects\laptop_optimization\backups\system\hkcu_windowmetrics.reg"
+[2026-11-21T17:00:49Z] [DRY-RUN] Would run: reg.exe import "C:\Users\Usuario\teamwork_projects\laptop_optimization\backups\system\hklm_datacollection.reg"
+[2026-11-21T17:00:49Z] [DRY-RUN] Would run: reg.exe import "C:\Users\Usuario\teamwork_projects\laptop_optimization\backups\system\hklm_deviceguard.reg"
+[2026-11-21T17:00:49Z] [DRY-RUN] Would run: reg.exe import "C:\Users\Usuario\teamwork_projects\laptop_optimization\backups\system\hklm_dgpu_0001.reg"
+[2026-11-21T17:00:49Z] [DRY-RUN] Would run: reg.exe import "C:\Users\Usuario\teamwork_projects\laptop_optimization\backups\system\hklm_graphicsdrivers.reg"
+[2026-11-21T17:00:49Z] [DRY-RUN] Would run: reg.exe import "C:\Users\Usuario\teamwork_projects\laptop_optimization\backups\system\hklm_igpu_0000.reg"
+[2026-11-21T17:00:49Z] [DRY-RUN] Would run: reg.exe import "C:\Users\Usuario\teamwork_projects\laptop_optimization\backups\system\hklm_nvlddmkm_params.reg"
+[2026-11-21T17:00:49Z] [DRY-RUN] Would run: reg.exe import "C:\Users\Usuario\teamwork_projects\laptop_optimization\backups\system\hklm_policymanager_gamedvr.reg"
+[2026-11-21T17:00:49Z] [DRY-RUN] Would run: reg.exe import "C:\Users\Usuario\teamwork_projects\laptop_optimization\backups\system\hklm_prioritycontrol.reg"
+[2026-11-21T17:00:49Z] [DRY-RUN] Would run: reg.exe import "C:\Users\Usuario\teamwork_projects\laptop_optimization\backups\system\hklm_run.reg"
+[2026-11-21T17:00:49Z] [DRY-RUN] Would run: reg.exe import "C:\Users\Usuario\teamwork_projects\laptop_optimization\backups\system\hklm_sessionmanager_power.reg"
+[2026-11-21T17:00:49Z] [DRY-RUN] Would run: reg.exe import "C:\Users\Usuario\teamwork_projects\laptop_optimization\backups\system\hklm_startupapproved_run.reg"
+[2026-11-21T17:00:49Z] [DRY-RUN] Would run: reg.exe import "C:\Users\Usuario\teamwork_projects\laptop_optimization\backups\system\hklm_startupapproved_startupfolder.reg"
+[2026-11-21T17:00:49Z] [DRY-RUN] Would run: reg.exe import "C:\Users\Usuario\teamwork_projects\laptop_optimization\backups\network\eth_driver_reg.reg"
+[2026-11-21T17:00:49Z] [DRY-RUN] Would run: reg.exe import "C:\Users\Usuario\teamwork_projects\laptop_optimization\backups\network\mmcss.reg"
+[2026-11-21T17:00:49Z] [DRY-RUN] Would run: reg.exe import "C:\Users\Usuario\teamwork_projects\laptop_optimization\backups\network\psched.reg"
+[2026-11-21T17:00:49Z] [DRY-RUN] Would run: reg.exe import "C:\Users\Usuario\teamwork_projects\laptop_optimization\backups\network\tcpip_iface_eth.reg"
+[2026-11-21T17:00:49Z] [DRY-RUN] Would run: reg.exe import "C:\Users\Usuario\teamwork_projects\laptop_optimization\backups\network\tcpip_iface_wifi.reg"
+[2026-11-21T17:00:49Z] [DRY-RUN] Would run: reg.exe import "C:\Users\Usuario\teamwork_projects\laptop_optimization\backups\network\tcpip_params.reg"
+[2026-11-21T17:00:49Z] [DRY-RUN] Would run: reg.exe import "C:\Users\Usuario\teamwork_projects\laptop_optimization\backups\network\wifi_driver_reg.reg"
+[2026-11-21T17:00:49Z] [SKIP] Baseline-absent key already absent: HKLM\SYSTEM\CurrentControlSet\Control\DeviceGuard\Scenarios\HypervisorEnforcedCodeIntegrity
+[2026-11-21T17:00:49Z] [SKIP] Baseline-absent key already absent: HKLM\SYSTEM\CurrentControlSet\Control\Power\PowerThrottling
+[2026-11-21T17:00:49Z] [SKIP] Baseline-absent key already absent: HKLM\SOFTWARE\Policies\Microsoft\Windows\GameDVR
+[2026-11-21T17:00:49Z] [SKIP] Baseline-absent key already absent: HKLM\SOFTWARE\Policies\Microsoft\Windows\DeliveryOptimization
+[2026-11-21T17:00:49Z] [SKIP] Baseline-absent key already absent: HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\DeliveryOptimization\Config
+[2026-11-21T17:00:49Z] [WARN] No .pow files found in 'C:\Users\Usuario\teamwork_projects\laptop_optimization\backups\power' (backup may have been captured non-elevated).
+[2026-11-21T17:00:49Z] [DRY-RUN] Would set active power scheme: powercfg /setactive 8ac65e32-075f-48d5-828b-02e93ad3c1f8
+[2026-11-21T17:00:49Z] [DRY-RUN] Would restore hibernation: powercfg /h on
+[2026-11-21T17:00:50Z] [DRY-RUN] Would set static DNS on 'Wi-Fi' -> 1.1.1.1, 1.0.0.1
+[2026-11-21T17:00:50Z] [DRY-RUN] Would reset DNS to DHCP on 'Ethernet' (-ResetServerAddresses)
+[2026-11-21T17:00:50Z] [INFO] Checked 42 NIC advanced property rows against baseline.
+[2026-11-21T17:00:50Z] [DRY-RUN] Would ensure WLAN autoconfig enabled: netsh wlan set autoconfig enabled=yes interface="Wi-Fi"
+[2026-11-21T17:00:50Z] [DRY-RUN] Would restore WLAN profile 'lim😿' connectionmode=auto
+[2026-11-21T17:00:50Z] [DRY-RUN] Would restore WLAN profile 'computo' connectionmode=auto
+[2026-11-21T17:00:50Z] [DRY-RUN] Would restore WLAN profile 'OnePlus 10T 5G s745' connectionmode=auto
+[2026-11-21T17:00:50Z] [DRY-RUN] Would restore WLAN profile 'CLARO1_BA6A8B_EXT' connectionmode=auto
+[2026-11-21T17:00:50Z] [DRY-RUN] Would restore WLAN profile 'CLARO2_E56FFC' connectionmode=auto
+[2026-11-21T17:00:50Z] [DRY-RUN] Would restore WLAN profile 'CLARO2_F3E3B9' connectionmode=auto
+[2026-11-21T17:00:50Z] [DRY-RUN] Would restore WLAN profile 'CLARO1_F3E3B9' connectionmode=auto
+[2026-11-21T17:00:50Z] [DRY-RUN] Would restore WLAN profile 'iPhoneS' connectionmode=auto
+[2026-11-21T17:00:50Z] [DRY-RUN] Would restore WLAN profile 'CLARO1_BAB98B' connectionmode=auto
+[2026-11-21T17:00:51Z] [INFO] Checked 284 baseline services (0 difference(s) found).
+[2026-11-21T17:00:52Z] [INFO] Checked 193 baseline scheduled tasks (0 difference(s) found).
+[2026-11-21T17:00:52Z] [INFO] Rollback finished with 0 critical error(s).
